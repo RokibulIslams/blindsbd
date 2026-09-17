@@ -1,0 +1,1125 @@
+{
+  "slider": [
+    {
+      "type": "image",
+      "image": "images/sliders/slider1.webp",
+      "title": "Stylish Zebra Blinds for Modern Living",
+      "desc": "Premium Zebra Blinds offer a sophisticated look while providing adjustable light filtering and enhanced privacy. Ideal for homes, offices, hotels, and commercial spaces.",
+      "link": "subcategory.html?cat=Blockout-Zebra-Blinds"
+    },
+    {
+      "type": "image",
+      "image": "images/sliders/slider2.webp",
+      "title": "Premium Roller Blinds",
+      "desc": "Transform your interiors with stylish Roller Blinds. Enjoy smooth functionality, elegant design, and customizable solutions for every window.",
+      "link": "subcategory.html?cat=Blockout-Roller-Blinds"
+    },
+    {
+      "type": "image",
+      "image": "images/sliders/slider3.webp",
+      "title": "Premium Vertical blinds",
+      "desc": "Elegant vertical design with easy light control and privacy—perfect for large windows, offices, and modern interiors.",
+      "link": "subcategory.html?cat=vertical"
+    },
+    {
+      "type": "image",
+      "image": "images/sliders/slider4.webp",
+      "title": "Premium Venetian Blinds ",
+      "desc": "Classic horizontal slats with precise light control, privacy, and a sophisticated look for homes and offices.",
+      "link": "subcategory.html?cat=venetian"
+    },
+    {
+      "type": "image",
+      "image": "images/sliders/slider5.webp",
+      "title": "Premium Motorized Blinds",
+      "desc": "Smart, stylish and effortless—control your blinds with a remote or smart device for perfect light, privacy and comfort.",
+      "link": "subcategory.html?cat=motorized"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Blockout Zebra Blinds",
+      "image": "images/category/bozebra.webp",
+      "id": "Blockout-Zebra-Blinds"
+    },
+    {
+      "title": "Sunscreen Zebra Blinds",
+      "image": "images/category/sszebra.webp",
+      "id": "Sunscreen-Zebra-Blinds"
+    },
+    {
+      "title": "Blockout Roller Blinds",
+      "image": "images/category/boroller.webp",
+      "id": "Blockout-Roller-Blinds"
+    },
+    {
+      "title": "Sunscreen Roller Blinds",
+      "image": "images/category/ssroller.webp",
+      "id": "SunscreenRollerBlinds"
+    },
+    {
+      "title": "Vertical Blinds",
+      "image": "images/category/vertical.webp",
+      "id": "vertical"
+    },
+    {
+      "title": "Motorized Blinds",
+      "image": "images/category/Motorized.webp",
+      "id": "motorized"
+    },
+    {
+      "title": "Curtain Blinds ",
+      "image": "images/category/curtain.webp",
+      "id": "curtain"
+    },
+    {
+      "title": "Venetian Blinds",
+      "image": "images/category/venetian.webp",
+      "id": "venetian"
+    }
+  ],
+  "recent": [
+    {
+      "title": "Blackout Roller Blinds – ( Color =WBR-301 )",
+      "image": "images/boroller/301/2.webp",
+      "link": "product-details.html?id=boroller301"
+    },
+    {
+      "title": "Blackout Roller Blinds – ( Color =WBR-304 )",
+      "image": "images/boroller/304/3.jpg",
+      "link": "product-details.html?id=boroller304"
+    },
+    {
+      "title": "Sunscreen Roller Blinds – ( Color =WBR-201 )",
+      "image": "images/SSRoller/201/2.jpg",
+      "link": "product-details.html?id=ssroller201"
+    },
+    {
+      "title": "Sunscreen Roller Blinds – ( Color =WBR-202 )",
+      "image": "images/SSRoller/202/1.jpg",
+      "link": "product-details.html?id=ssroller202"
+    }
+  ],
+  "featured": [
+    {
+      "title": "Blockout Zebra Blinds – ( Color =WBZ-607 )",
+      "image": "images/BOZebra/607/2.webp",
+      "link": "product-details.html?id=Blockout-Zebra-Blinds-607"
+    },
+    {
+      "title": "Blockout Zebra Blinds – ( Color =WBZ-636 )",
+      "image": "images/BOZebra/636/2.jpg",
+      "link": "product-details.html?id=Blockout-Zebra-Blinds-636"
+    },
+    {
+      "title": "Sunscreen Zebra Blinds – ( Color =WBZ-502 )",
+      "image": "images/SSZebra/502/1.jpg",
+      "link": "product-details.html?id=Sunscreen-Zebra-Blinds-502"
+    },
+    {
+      "title": "Sunscreen Zebra Blinds – ( Color =WBZ-515 )",
+      "image": "images/SSZebra/515/1.jpg",
+      "link": "product-details.html?id=Sunscreen-Zebra-Blinds-515"
+    }
+  ],
+  "search": [
+    {
+      "title": "Blockout Zebra Blinds",
+      "image": "images/category/bozebra.webp",
+      "link": "subcategory.html?cat=Blockout-Zebra-Blinds",
+      "type": "product"
+    },
+    {
+      "title": "Sunscreen Zebra Blinds",
+      "image": "images/category/sszebra.webp",
+      "link": "subcategory.html?cat=Sunscreen-Zebra-Blinds",
+      "type": "category"
+    },
+    {
+      "title": "Blockout Roller Blinds",
+      "image": "images/category/boroller.webp",
+      "link": "subcategory.html?cat=Blockout-Roller-Blinds",
+      "type": "product"
+    },
+    {
+      "title": "Sunscreen Roller Blinds",
+      "image": "images/category/ssroller.webp",
+      "link": "subcategory.html?cat=SunscreenRollerBlinds",
+      "type": "product"
+    },
+    {
+      "title": "Vertical Blinds",
+      "image": "images/category/vertical.webp",
+      "link": "subcategory.html?cat=vertical",
+      "type": "product"
+    },
+    {
+      "title": "Motorized Blinds",
+      "image": "images/category/Motorized.webp",
+      "link": "subcategory.html?cat=motorized",
+      "type": "product"
+    },
+    {
+      "title": "Curtain Blinds",
+      "image": "images/category/curtain.webp",
+      "link": "subcategory.html?cat=curtain",
+      "type": "product"
+    },
+    {
+      "title": "Venetian Blinds",
+      "image": "images/category/venetian.webp",
+      "link": "subcategory.html?cat=venetian",
+      "type": "product"
+    }
+  ],
+  "subcategories": {
+    "venetian": [
+      {
+        "id": "venetian1",
+        "title": "Premium Venetian Blinds",
+        "price": 200,
+        "image": "images/venetian/1/1.jpg",
+        "images": [
+          "images/venetian/1/1.jpg",
+          "images/venetian/1/2.jpg",
+          "images/venetian/1/3.jpg"
+        ],
+        "highlights": [
+          "Precision light control with adjustable slats",
+          "Modern minimalist design that saves space",
+          "Offers both privacy and a clear outside view."
+        ],
+        "speciality": [
+          "Moisture and heat resistant, ideal for kitchens and bathrooms.",
+          "Durable UV coating to prevent color fading.",
+          "Smooth and silent operating mechanism."
+        ],
+        "description": "Premium quality Venetian blinds featuring a sophisticated horizontal slat design that combines timeless style with modern functionality. Crafted from high-grade, lightweight materials, these blinds offer a smooth mechanism and long-lasting durability. Their versatile off-white finish softens incoming sunlight, creating a warm and inviting atmosphere in dining rooms, kitchens, or home offices. Whether you need full natural light or a dim, private setting, these blinds provide a professional-grade solution for any window."
+      },
+      {
+        "id": "venetian2",
+        "title": "Studio Matte White Venetian Blind",
+        "price": 200,
+        "image": "images/venetian/2/1.jpg",
+        "images": [
+          "images/venetian/2/1.jpg",
+          "images/venetian/2/2.jpg",
+          "images/venetian/2/3.jpg"
+        ],
+        "highlights": [
+          "Precision light control with adjustable slats",
+          "Modern minimalist design that saves space",
+          "Offers both privacy and a clear outside view."
+        ],
+        "speciality": [
+          "Fully made to measure",
+          "Elegant aluminium slats",
+          "Colour matched top and bottom rails",
+          "Clear tilt wand and coordinated lift cords, located to your specification",
+          "Easy fit universal brackets for top or face fitting",
+          "Suitable for kitchens and bathrooms"
+        ],
+        "description": "When only the brightest of whites will do this Studio Matt White Venetian Blind will fill your home with the most pristine tone to leave it looking light, spacious and inviting.\n\nThat’s not where the magic ends; those aluminium slats are super strong and hardwearing so you never need to worry about warping or rust – ideal for kitchens, bathrooms or anywhere else in your home!\n\nPlus you get a ton of light control with a Venetian Blind. Whether you love the sun but want to add a bit of privacy or you need to take the glare off a screen, this blind gives you so many options to help you get the lighting just right."
+      },
+      {
+        "id": "venetian3",
+        "title": "Studio Space Grey Venetian Blind",
+        "price": 200,
+        "image": "images/venetian/3/1.jpg",
+        "images": [
+          "images/venetian/3/1.jpg",
+          "images/venetian/3/2.jpg",
+          "images/venetian/3/3.jpg"
+        ],
+        "highlights": [
+          "Fully made to measure",
+          "Aluminium Slats",
+          "Easy fit universal brackets suitable for top and face fitting",
+          "Clear tilt wand and coordinated lift cords, located to your specification",
+          "Suitable for kitchens and bathrooms"
+        ],
+        "speciality": [
+          "Moisture and heat resistant, ideal for kitchens and bathrooms.",
+          "Durable UV coating to prevent color fading.",
+          "Smooth and silent operating mechanism."
+        ],
+        "description": "Incredibly stylish and practical, the Studio Space Grey Aluminium Venetian Blind will give your window a sleek upgrade.\n\n\n\n\nIn this exceptionally contemporary anthracite colourway, this blind holds a subtle lustre and a gorgeous dark grey colour that will suit schemes wanting to explore darker décor.\n\n\n\n\nMade from superbly strong aluminium, this blind is the perfect thing from bedrooms to bathrooms and kitchens, offering you privacy and light control with a wipeable, rust-free benefit."
+      }
+    ],
+    "curtain": [
+      {
+        "id": "Curtains1",
+        "title": "Premium Curtains",
+        "price": "Contact What's App ",
+        "image": "images/Curtains/1/1.jpg",
+        "images": [
+          "images/Curtains/1/1.jpg",
+          "images/Curtains/1/2.jpg",
+          "images/Curtains/1/3.jpg",
+          "images/Curtains/1/4.mp4"
+        ],
+        "highlights": [
+          "Premium-quality curtain fabric",
+          "Wide range of colors & designs",
+          "Excellent privacy control",
+          "Professional installation",
+          "Customized solutions according to your requirements"
+        ],
+        "speciality": [
+          "Customized",
+          "Beautiful Interiors",
+          "Elegant Curtains",
+          "Privacy",
+          "Light Control"
+        ],
+        "description": "Transform your space with elegant and stylish Premium Curtains from Premium Blinds BD. Our curtains are designed to enhance the beauty, privacy, and comfort of your home, office, hotel, restaurant, and commercial spaces. With a wide range of fabric options, colors, designs, and customized sizes, you can choose the perfect curtain solution to match your interior.\n\nOur curtains provide excellent privacy and light control while adding a sophisticated and luxurious appearance to your windows. From classic designs to modern interior styles, our curtain solutions are carefully selected and professionally installed for a clean and beautiful finish.\n\nPremium Blinds BD provides customized curtain solutions according to your window size, interior design, and requirements, with professional installation and reliable service."
+      }
+    ],
+    "motorized": [
+      {
+        "id": "Motorized1",
+        "title": "Premium Motorized Curtains",
+        "price": "Contact What's App ",
+        "image": "images/Motorized/1/1.jpg",
+        "images": [
+          "images/Motorized/1/1.jpg",
+          "images/Motorized/1/2.jpg",
+          "images/Motorized/1/3.jpg",
+          "images/Motorized/1/4.mp4"
+        ],
+        "highlights": [
+          "Remote-controlled curtain operation",
+          "Custom-made according to window size",
+          "Smooth & convenient movement",
+          "Suitable for large & wide windows",
+          "Perfect for hotels, restaurants & commercial spaces"
+        ],
+        "speciality": [
+          "Remote Controlled",
+          "Smart Curtains for a Smarter",
+          "Elegant Space",
+          "Smooth Operation",
+          "Professional Installation"
+        ],
+        "description": "Experience the perfect combination of luxury, convenience, and modern technology with Premium Motorized Curtains from Premium Blinds BD. Our motorized curtain systems allow you to open, close, and control your curtains effortlessly using a remote control.\n\nDesigned for modern homes, offices, hotels, conference rooms, restaurants, and commercial spaces, motorized curtains provide a clean and sophisticated interior appearance while making everyday curtain operation easier and more convenient.\n\nOur customized motorized curtain solutions can be designed according to your window size, curtain style, interior requirements, and control preferences. With smooth and quiet operation, they are an excellent choice for large windows, high-ceiling spaces, and hard-to-reach curtains."
+      }
+    ],
+    "Sunscreen-Zebra-Blinds": [
+      {
+        "id": "Sunscreen-Zebra-Blinds-502",
+        "title": "Premium Sunscreen Zebra Blinds – ( Color =WBZ-502 )",
+        "price": "155",
+        "image": "images/SSZebra/502/1.jpg",
+        "images": [
+          "images/SSZebra/502/1.jpg",
+          "images/SSZebra/502/2.jpg",
+          "images/SSZebra/502/3.jpg"
+        ],
+        "highlights": [
+          "Standerd Quality Aluminum With Matching ",
+          "Premium sunscreen zebra fabric",
+          "Maintains outside visibility",
+          "Adjustable light and privacy control",
+          "Custom-made according to window size"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Outside View",
+          "Privacy Control",
+          "Multiple Colors",
+          "Easy Operation",
+          "Modern Design"
+        ],
+        "description": "Premium Sunscreen Zebra Blinds are a stylish and practical window-covering solution designed to control sunlight, reduce glare and provide enhanced UV protection while maintaining a comfortable outside view. The unique zebra-style fabric combines light-filtering and transparent stripes, allowing you to adjust the amount of natural light and privacy according to your needs.\n\nOur Sunscreen Zebra Blinds are custom-made according to your window size and are suitable for homes, offices, hotels, restaurants, banks, showrooms and other commercial spaces. Available in a range of modern colors and fabric options, they add a clean, elegant and contemporary look to any interior.\n\nPremium Blinds BD provides professional measurement, custom manufacturing, supply and installation for quality window-blind solutions in Dhaka and across Bangladesh."
+      },
+      {
+        "id": "Sunscreen-Zebra-Blinds-515",
+        "title": "Premium Sunscreen Zebra Blinds – ( Color =WBZ-515 )",
+        "price": "155",
+        "image": "images/SSZebra/515/1.jpg",
+        "images": [
+          "images/SSZebra/515/1.jpg",
+          "images/SSZebra/515/2.jpg"
+        ],
+        "highlights": [
+          "Standerd Quality Aluminum With Matching ",
+          "Premium sunscreen zebra fabric",
+          "Maintains outside visibility",
+          "Adjustable light and privacy control",
+          "Custom-made according to window size"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Outside View",
+          "Privacy Control",
+          "Multiple Colors",
+          "Easy Operation",
+          "Modern Design"
+        ],
+        "description": "Premium Sunscreen Zebra Blinds are a stylish and practical window-covering solution designed to control sunlight, reduce glare and provide enhanced UV protection while maintaining a comfortable outside view. The unique zebra-style fabric combines light-filtering and transparent stripes, allowing you to adjust the amount of natural light and privacy according to your needs.\n\nOur Sunscreen Zebra Blinds are custom-made according to your window size and are suitable for homes, offices, hotels, restaurants, banks, showrooms and other commercial spaces. Available in a range of modern colors and fabric options, they add a clean, elegant and contemporary look to any interior.\n\nPremium Blinds BD provides professional measurement, custom manufacturing, supply and installation for quality window-blind solutions in Dhaka and across Bangladesh."
+      },
+      {
+        "id": "Sunscreen-Zebra-Blinds-517",
+        "title": "Premium Sunscreen Zebra Blinds – ( Color =WBZ-517 )",
+        "price": "155",
+        "image": "images/SSZebra/517/4.webp",
+        "images": [
+          "images/SSZebra/517/4.webp"
+        ],
+        "highlights": [
+          "Standerd Quality Aluminum With Matching ",
+          "Premium sunscreen zebra fabric",
+          "Maintains outside visibility",
+          "Adjustable light and privacy control",
+          "Custom-made according to window size"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Outside View",
+          "Privacy Control",
+          "Multiple Colors",
+          "Easy Operation",
+          "Modern Design"
+        ],
+        "description": "Premium Sunscreen Zebra Blinds are a stylish and practical window-covering solution designed to control sunlight, reduce glare and provide enhanced UV protection while maintaining a comfortable outside view. The unique zebra-style fabric combines light-filtering and transparent stripes, allowing you to adjust the amount of natural light and privacy according to your needs.\n\nOur Sunscreen Zebra Blinds are custom-made according to your window size and are suitable for homes, offices, hotels, restaurants, banks, showrooms and other commercial spaces. Available in a range of modern colors and fabric options, they add a clean, elegant and contemporary look to any interior.\n\nPremium Blinds BD provides professional measurement, custom manufacturing, supply and installation for quality window-blind solutions in Dhaka and across Bangladesh."
+      }
+    ],
+    "vertical": [
+      {
+        "id": "VerticalBlinds_1",
+        "title": "Premium vertical Blinds",
+        "price": 70,
+        "image": "images/vertical/1/1.jpg",
+        "images": [
+          "images/vertical/1/1.jpg",
+          "images/vertical/1/2.jpg",
+          "images/vertical/1/3.jpg"
+        ],
+        "highlights": [
+          "Provides flexible privacy control for homes, offices, and commercial spaces.",
+          "Designed to provide a clean, organized, and premium appearance.",
+          "Perfect for wide windows, glass walls, and sliding doors.",
+          "Available in different colors, fabrics, textures, and customized dimensions.",
+          "Suitable for bedrooms, living rooms, offices, conference rooms, hotels, restaurants, showrooms, and other commercial spaces.",
+          "Modern minimalist design that saves space",
+          "Offers both privacy and a clear outside view."
+        ],
+        "speciality": [
+          "Easily adjust the slats to control sunlight and indoor brightness.",
+          "Wide range of colors and fabric options",
+          "Smooth and easy operation",
+          "Custom sizes available",
+          "Professional measurement and installation"
+        ],
+        "description": "Vertical Blinds are a stylish, practical, and versatile window covering solution designed to enhance both the beauty and functionality of modern interiors. With vertically hanging fabric slats, these blinds provide excellent control over sunlight, privacy, and indoor comfort while creating a clean and elegant appearance.\nPremium Blinds BD offers high-quality Vertical Blinds suitable for homes, offices, banks, hotels, restaurants, showrooms, hospitals, and commercial spaces. Their vertical design makes them especially suitable for large windows, glass partitions, sliding doors, and wide openings, where traditional curtains or horizontal blinds may not provide the desired look and functionality.\nThe adjustable vertical slats allow you to control the amount of natural light entering your space according to your preference. You can rotate the slats to filter sunlight, reduce glare, or increase privacy, while the smooth operating system makes opening and closing simple and convenient.\nOur Vertical Blinds are available in a variety of colors, fabrics, textures, and customized sizes, allowing you to match them perfectly with your interior design. The minimal and sophisticated appearance adds a professional touch to offices and commercial environments while creating a comfortable and elegant atmosphere in residential spaces.\nPremium Blinds BD focuses on quality, precise measurement, neat finishing, and professional installation. Whether you are renovating your home, setting up a new office, or completing a commercial project, our Vertical Blinds provide an attractive and functional window solution designed for everyday use.\nChoose Premium Blinds BD Vertical Blinds to bring together privacy, light control, durability, and modern elegance in one complete window-covering solution."
+      },
+      {
+        "id": "VerticalBlinds_51",
+        "title": "Vertical Blinds - WB-51",
+        "price": 70,
+        "image": "images/vertical/51/3.jpg",
+        "images": [
+          "images/vertical/51/1.jpg",
+          "images/vertical/51/2.jpg",
+          "images/vertical/51/3.jpg"
+        ],
+        "highlights": [
+          "Provides flexible privacy control for homes, offices, and commercial spaces.",
+          "Designed to provide a clean, organized, and premium appearance.",
+          "Perfect for wide windows, glass walls, and sliding doors.",
+          "Available in different colors, fabrics, textures, and customized dimensions.",
+          "Suitable for bedrooms, living rooms, offices, conference rooms, hotels, restaurants, showrooms, and other commercial spaces.",
+          "Modern minimalist design that saves space",
+          "Offers both privacy and a clear outside view."
+        ],
+        "speciality": [
+          "Easily adjust the slats to control sunlight and indoor brightness.",
+          "Wide range of colors and fabric options",
+          "Smooth and easy operation",
+          "Custom sizes available",
+          "Professional measurement and installation"
+        ],
+        "description": "Vertical Blinds are a stylish, practical, and versatile window covering solution designed to enhance both the beauty and functionality of modern interiors. With vertically hanging fabric slats, these blinds provide excellent control over sunlight, privacy, and indoor comfort while creating a clean and elegant appearance.\nPremium Blinds BD offers high-quality Vertical Blinds suitable for homes, offices, banks, hotels, restaurants, showrooms, hospitals, and commercial spaces. Their vertical design makes them especially suitable for large windows, glass partitions, sliding doors, and wide openings, where traditional curtains or horizontal blinds may not provide the desired look and functionality.\nThe adjustable vertical slats allow you to control the amount of natural light entering your space according to your preference. You can rotate the slats to filter sunlight, reduce glare, or increase privacy, while the smooth operating system makes opening and closing simple and convenient.\nOur Vertical Blinds are available in a variety of colors, fabrics, textures, and customized sizes, allowing you to match them perfectly with your interior design. The minimal and sophisticated appearance adds a professional touch to offices and commercial environments while creating a comfortable and elegant atmosphere in residential spaces.\nPremium Blinds BD focuses on quality, precise measurement, neat finishing, and professional installation. Whether you are renovating your home, setting up a new office, or completing a commercial project, our Vertical Blinds provide an attractive and functional window solution designed for everyday use.\nChoose Premium Blinds BD Vertical Blinds to bring together privacy, light control, durability, and modern elegance in one complete window-covering solution."
+      },
+      {
+        "id": "VerticalBlinds_61",
+        "title": "Vertical Blinds - WB-61",
+        "price": 70,
+        "image": "images/vertical/61/4.jpg",
+        "images": [
+          "images/vertical/61/1.jpg",
+          "images/vertical/61/2.jpg",
+          "images/vertical/61/3.jpg",
+          "images/vertical/61/4.jpg"
+        ],
+        "highlights": [
+          "Provides flexible privacy control for homes, offices, and commercial spaces.",
+          "Designed to provide a clean, organized, and premium appearance.",
+          "Perfect for wide windows, glass walls, and sliding doors.",
+          "Available in different colors, fabrics, textures, and customized dimensions.",
+          "Suitable for bedrooms, living rooms, offices, conference rooms, hotels, restaurants, showrooms, and other commercial spaces.",
+          "Modern minimalist design that saves space",
+          "Offers both privacy and a clear outside view."
+        ],
+        "speciality": [
+          "Easily adjust the slats to control sunlight and indoor brightness.",
+          "Wide range of colors and fabric options",
+          "Smooth and easy operation",
+          "Custom sizes available",
+          "Professional measurement and installation"
+        ],
+        "description": "Vertical Blinds are a stylish, practical, and versatile window covering solution designed to enhance both the beauty and functionality of modern interiors. With vertically hanging fabric slats, these blinds provide excellent control over sunlight, privacy, and indoor comfort while creating a clean and elegant appearance.\nPremium Blinds BD offers high-quality Vertical Blinds suitable for homes, offices, banks, hotels, restaurants, showrooms, hospitals, and commercial spaces. Their vertical design makes them especially suitable for large windows, glass partitions, sliding doors, and wide openings, where traditional curtains or horizontal blinds may not provide the desired look and functionality.\nThe adjustable vertical slats allow you to control the amount of natural light entering your space according to your preference. You can rotate the slats to filter sunlight, reduce glare, or increase privacy, while the smooth operating system makes opening and closing simple and convenient.\nOur Vertical Blinds are available in a variety of colors, fabrics, textures, and customized sizes, allowing you to match them perfectly with your interior design. The minimal and sophisticated appearance adds a professional touch to offices and commercial environments while creating a comfortable and elegant atmosphere in residential spaces.\nPremium Blinds BD focuses on quality, precise measurement, neat finishing, and professional installation. Whether you are renovating your home, setting up a new office, or completing a commercial project, our Vertical Blinds provide an attractive and functional window solution designed for everyday use.\nChoose Premium Blinds BD Vertical Blinds to bring together privacy, light control, durability, and modern elegance in one complete window-covering solution."
+      },
+      {
+        "id": "VerticalBlinds_62",
+        "title": "Vertical Blinds - WB-62",
+        "price": 70,
+        "image": "images/vertical/62/4.jpg",
+        "images": [
+          "images/vertical/62/1.jpg",
+          "images/vertical/62/2.jpg",
+          "images/vertical/62/3.jpg",
+          "images/vertical/62/4.jpg"
+        ],
+        "highlights": [
+          "Provides flexible privacy control for homes, offices, and commercial spaces.",
+          "Designed to provide a clean, organized, and premium appearance.",
+          "Perfect for wide windows, glass walls, and sliding doors.",
+          "Available in different colors, fabrics, textures, and customized dimensions.",
+          "Suitable for bedrooms, living rooms, offices, conference rooms, hotels, restaurants, showrooms, and other commercial spaces.",
+          "Modern minimalist design that saves space",
+          "Offers both privacy and a clear outside view."
+        ],
+        "speciality": [
+          "Easily adjust the slats to control sunlight and indoor brightness.",
+          "Wide range of colors and fabric options",
+          "Smooth and easy operation",
+          "Custom sizes available",
+          "Professional measurement and installation"
+        ],
+        "description": "Vertical Blinds are a stylish, practical, and versatile window covering solution designed to enhance both the beauty and functionality of modern interiors. With vertically hanging fabric slats, these blinds provide excellent control over sunlight, privacy, and indoor comfort while creating a clean and elegant appearance.\nPremium Blinds BD offers high-quality Vertical Blinds suitable for homes, offices, banks, hotels, restaurants, showrooms, hospitals, and commercial spaces. Their vertical design makes them especially suitable for large windows, glass partitions, sliding doors, and wide openings, where traditional curtains or horizontal blinds may not provide the desired look and functionality.\nThe adjustable vertical slats allow you to control the amount of natural light entering your space according to your preference. You can rotate the slats to filter sunlight, reduce glare, or increase privacy, while the smooth operating system makes opening and closing simple and convenient.\nOur Vertical Blinds are available in a variety of colors, fabrics, textures, and customized sizes, allowing you to match them perfectly with your interior design. The minimal and sophisticated appearance adds a professional touch to offices and commercial environments while creating a comfortable and elegant atmosphere in residential spaces.\nPremium Blinds BD focuses on quality, precise measurement, neat finishing, and professional installation. Whether you are renovating your home, setting up a new office, or completing a commercial project, our Vertical Blinds provide an attractive and functional window solution designed for everyday use.\nChoose Premium Blinds BD Vertical Blinds to bring together privacy, light control, durability, and modern elegance in one complete window-covering solution."
+      }
+    ],
+    "Blockout-Roller-Blinds": [
+      {
+        "id": "boroller301",
+        "title": "Blackout Roller Blinds – ( Color =WBR-301 )",
+        "price": 130,
+        "image": "images/boroller/301/1.webp",
+        "images": [
+          "images/boroller/301/1.webp",
+          "images/boroller/301/2.webp",
+          "images/boroller/301/3.webp",
+          "images/boroller/301/4.webp"
+        ],
+        "speciality": [
+          "100% light blocking blackout fabric",
+          "Maximum privacy day & night",
+          "Heat & UV ray protection",
+          "Smooth and silent rolling operation",
+          "Durable aluminum headbox & bottom rail",
+          "Energy-efficient window covering",
+          "Easy to clean & maintain",
+          "Available in manual & motorized options"
+        ],
+        "highlights": [
+          "Premium imported blackout fabric",
+          "Custom-made to fit any window size",
+          "Professional installation service",
+          "Suitable for residential & commercial use",
+          "Long-lasting performance with elegant finish"
+        ],
+        "description": "ব্ল্যাকআউট রোলার ব্লাইন্ডস আধুনিক ঘর ও অফিসের জন্য একটি আদর্শ উইন্ডো কাভারিং সমাধান, যেখানে প্রয়োজন ১০০% আলো বন্ধ করা, প্রাইভেসি নিশ্চিত করা এবং স্টাইলিশ লুক। উন্নতমানের ব্ল্যাকআউট ফ্যাব্রিক ব্যবহার করে তৈরি এই ব্লাইন্ডস সূর্যের আলো, UV রশ্মি এবং বাইরের ঝলকানি সম্পূর্ণভাবে প্রতিরোধ করে, ফলে ঘরের ভেতর তৈরি হয় আরামদায়ক ও নিয়ন্ত্রিত পরিবেশ।\nএই ব্লাইন্ডস বিশেষভাবে উপযোগী বেডরুম, লিভিং রুম, অফিস, কনফারেন্স রুম, হাসপাতাল, হোটেল, হোম থিয়েটার ও বিভিন্ন কমার্শিয়াল স্পেসের জন্য, যেখানে আলো নিয়ন্ত্রণ ও গোপনীয়তা অত্যন্ত গুরুত্বপূর্ণ। ব্ল্যাকআউট ফ্যাব্রিক দিনের আলো পুরোপুরি বন্ধ করে দেয়, যা ভালো ঘুম নিশ্চিত করতে সাহায্য করে এবং স্ক্রিন বা প্রেজেন্টেশনের সময় আলোজনিত সমস্যা কমায়।\nব্লাইন্ডসটিতে রয়েছে স্মুথ ও সাইলেন্ট রোলিং মেকানিজম, শক্তিশালী অ্যালুমিনিয়াম হেডবক্স এবং বটম বার, যা দীর্ঘদিন টেকসই ব্যবহার নিশ্চিত করে। পাশাপাশি এই ব্ল্যাকআউট ফ্যাব্রিক ঘরের তাপমাত্রা নিয়ন্ত্রণেও সহায়ক—গরমে তাপ কম প্রবেশ করতে দেয় এবং শীতে উষ্ণতা ধরে রাখে, ফলে বিদ্যুৎ সাশ্রয় হয়।\nআমাদের ব্ল্যাকআউট রোলার ব্লাইন্ডস পাওয়া যায় বিভিন্ন আধুনিক রঙ, ডিজাইন ও কাস্টম সাইজে, যা যেকোনো ইন্টেরিয়র ডিজাইনের সাথে সহজেই মানিয়ে যায়। ব্লাইন্ডসগুলো ব্যবহার করা খুবই সহজ এবং কম মেইনটেন্যান্স প্রয়োজন। চাইলে এটি ম্যানুয়াল চেইন সিস্টেম অথবা মোটরাইজড (রিমোট কন্ট্রোল) সিস্টেমে পাওয়া যায়, যা আপনার ঘরে যোগ করবে আধুনিকতার ছোঁয়া।"
+      },
+      {
+        "id": "boroller302",
+        "title": "Blackout Roller Blinds – ( Color =WBR-302 )",
+        "price": 130,
+        "image": "images/boroller/302/3.webp",
+        "images": [
+          "images/boroller/302/1.webp",
+          "images/boroller/302/2.webp",
+          "images/boroller/302/3.webp",
+          "images/boroller/302/4.webp"
+        ],
+        "speciality": [
+          "100% light blocking blackout fabric",
+          "Maximum privacy day & night",
+          "Heat & UV ray protection",
+          "Smooth and silent rolling operation",
+          "Durable aluminum headbox & bottom rail",
+          "Energy-efficient window covering",
+          "Easy to clean & maintain",
+          "Available in manual & motorized options"
+        ],
+        "highlights": [
+          "Premium imported blackout fabric",
+          "Custom-made to fit any window size",
+          "Professional installation service",
+          "Suitable for residential & commercial use",
+          "Long-lasting performance with elegant finish"
+        ],
+        "description": "ব্ল্যাকআউট রোলার ব্লাইন্ডস আধুনিক ঘর ও অফিসের জন্য একটি আদর্শ উইন্ডো কাভারিং সমাধান, যেখানে প্রয়োজন ১০০% আলো বন্ধ করা, প্রাইভেসি নিশ্চিত করা এবং স্টাইলিশ লুক। উন্নতমানের ব্ল্যাকআউট ফ্যাব্রিক ব্যবহার করে তৈরি এই ব্লাইন্ডস সূর্যের আলো, UV রশ্মি এবং বাইরের ঝলকানি সম্পূর্ণভাবে প্রতিরোধ করে, ফলে ঘরের ভেতর তৈরি হয় আরামদায়ক ও নিয়ন্ত্রিত পরিবেশ।\nএই ব্লাইন্ডস বিশেষভাবে উপযোগী বেডরুম, লিভিং রুম, অফিস, কনফারেন্স রুম, হাসপাতাল, হোটেল, হোম থিয়েটার ও বিভিন্ন কমার্শিয়াল স্পেসের জন্য, যেখানে আলো নিয়ন্ত্রণ ও গোপনীয়তা অত্যন্ত গুরুত্বপূর্ণ। ব্ল্যাকআউট ফ্যাব্রিক দিনের আলো পুরোপুরি বন্ধ করে দেয়, যা ভালো ঘুম নিশ্চিত করতে সাহায্য করে এবং স্ক্রিন বা প্রেজেন্টেশনের সময় আলোজনিত সমস্যা কমায়।\nব্লাইন্ডসটিতে রয়েছে স্মুথ ও সাইলেন্ট রোলিং মেকানিজম, শক্তিশালী অ্যালুমিনিয়াম হেডবক্স এবং বটম বার, যা দীর্ঘদিন টেকসই ব্যবহার নিশ্চিত করে। পাশাপাশি এই ব্ল্যাকআউট ফ্যাব্রিক ঘরের তাপমাত্রা নিয়ন্ত্রণেও সহায়ক—গরমে তাপ কম প্রবেশ করতে দেয় এবং শীতে উষ্ণতা ধরে রাখে, ফলে বিদ্যুৎ সাশ্রয় হয়।\nআমাদের ব্ল্যাকআউট রোলার ব্লাইন্ডস পাওয়া যায় বিভিন্ন আধুনিক রঙ, ডিজাইন ও কাস্টম সাইজে, যা যেকোনো ইন্টেরিয়র ডিজাইনের সাথে সহজেই মানিয়ে যায়। ব্লাইন্ডসগুলো ব্যবহার করা খুবই সহজ এবং কম মেইনটেন্যান্স প্রয়োজন। চাইলে এটি ম্যানুয়াল চেইন সিস্টেম অথবা মোটরাইজড (রিমোট কন্ট্রোল) সিস্টেমে পাওয়া যায়, যা আপনার ঘরে যোগ করবে আধুনিকতার ছোঁয়া।"
+      },
+      {
+        "id": "boroller303",
+        "title": "Blackout Roller Blinds – ( Color =WBR-303 )",
+        "price": 130,
+        "image": "images/boroller/303/5.webp",
+        "images": [
+          "images/boroller/303/5.webp",
+          "images/boroller/303/2.webp",
+          "images/boroller/303/3.webp",
+          "images/boroller/303/4.webp"
+        ],
+        "speciality": [
+          "100% light blocking blackout fabric",
+          "Maximum privacy day & night",
+          "Heat & UV ray protection",
+          "Smooth and silent rolling operation",
+          "Durable aluminum headbox & bottom rail",
+          "Energy-efficient window covering",
+          "Easy to clean & maintain",
+          "Available in manual & motorized options"
+        ],
+        "highlights": [
+          "Premium imported blackout fabric",
+          "Custom-made to fit any window size",
+          "Professional installation service",
+          "Suitable for residential & commercial use",
+          "Long-lasting performance with elegant finish"
+        ],
+        "description": "ব্ল্যাকআউট রোলার ব্লাইন্ডস আধুনিক ঘর ও অফিসের জন্য একটি আদর্শ উইন্ডো কাভারিং সমাধান, যেখানে প্রয়োজন ১০০% আলো বন্ধ করা, প্রাইভেসি নিশ্চিত করা এবং স্টাইলিশ লুক। উন্নতমানের ব্ল্যাকআউট ফ্যাব্রিক ব্যবহার করে তৈরি এই ব্লাইন্ডস সূর্যের আলো, UV রশ্মি এবং বাইরের ঝলকানি সম্পূর্ণভাবে প্রতিরোধ করে, ফলে ঘরের ভেতর তৈরি হয় আরামদায়ক ও নিয়ন্ত্রিত পরিবেশ।\nএই ব্লাইন্ডস বিশেষভাবে উপযোগী বেডরুম, লিভিং রুম, অফিস, কনফারেন্স রুম, হাসপাতাল, হোটেল, হোম থিয়েটার ও বিভিন্ন কমার্শিয়াল স্পেসের জন্য, যেখানে আলো নিয়ন্ত্রণ ও গোপনীয়তা অত্যন্ত গুরুত্বপূর্ণ। ব্ল্যাকআউট ফ্যাব্রিক দিনের আলো পুরোপুরি বন্ধ করে দেয়, যা ভালো ঘুম নিশ্চিত করতে সাহায্য করে এবং স্ক্রিন বা প্রেজেন্টেশনের সময় আলোজনিত সমস্যা কমায়।\nব্লাইন্ডসটিতে রয়েছে স্মুথ ও সাইলেন্ট রোলিং মেকানিজম, শক্তিশালী অ্যালুমিনিয়াম হেডবক্স এবং বটম বার, যা দীর্ঘদিন টেকসই ব্যবহার নিশ্চিত করে। পাশাপাশি এই ব্ল্যাকআউট ফ্যাব্রিক ঘরের তাপমাত্রা নিয়ন্ত্রণেও সহায়ক—গরমে তাপ কম প্রবেশ করতে দেয় এবং শীতে উষ্ণতা ধরে রাখে, ফলে বিদ্যুৎ সাশ্রয় হয়।\nআমাদের ব্ল্যাকআউট রোলার ব্লাইন্ডস পাওয়া যায় বিভিন্ন আধুনিক রঙ, ডিজাইন ও কাস্টম সাইজে, যা যেকোনো ইন্টেরিয়র ডিজাইনের সাথে সহজেই মানিয়ে যায়। ব্লাইন্ডসগুলো ব্যবহার করা খুবই সহজ এবং কম মেইনটেন্যান্স প্রয়োজন। চাইলে এটি ম্যানুয়াল চেইন সিস্টেম অথবা মোটরাইজড (রিমোট কন্ট্রোল) সিস্টেমে পাওয়া যায়, যা আপনার ঘরে যোগ করবে আধুনিকতার ছোঁয়া।"
+      },
+      {
+        "id": "boroller304",
+        "title": "Blackout Roller Blinds – ( Color =WBR-304 )",
+        "price": 130,
+        "image": "images/boroller/304/5.jpg",
+        "images": [
+          "images/boroller/304/5.jpg",
+          "images/boroller/304/6.jpg",
+          "images/boroller/304/3.jpg",
+          "images/boroller/304/4.jpg"
+        ],
+        "speciality": [
+          "100% light blocking blackout fabric",
+          "Maximum privacy day & night",
+          "Heat & UV ray protection",
+          "Smooth and silent rolling operation",
+          "Durable aluminum headbox & bottom rail",
+          "Energy-efficient window covering",
+          "Easy to clean & maintain",
+          "Available in manual & motorized options"
+        ],
+        "highlights": [
+          "Premium imported blackout fabric",
+          "Custom-made to fit any window size",
+          "Professional installation service",
+          "Suitable for residential & commercial use",
+          "Long-lasting performance with elegant finish"
+        ],
+        "description": "ব্ল্যাকআউট রোলার ব্লাইন্ডস আধুনিক ঘর ও অফিসের জন্য একটি আদর্শ উইন্ডো কাভারিং সমাধান, যেখানে প্রয়োজন ১০০% আলো বন্ধ করা, প্রাইভেসি নিশ্চিত করা এবং স্টাইলিশ লুক। উন্নতমানের ব্ল্যাকআউট ফ্যাব্রিক ব্যবহার করে তৈরি এই ব্লাইন্ডস সূর্যের আলো, UV রশ্মি এবং বাইরের ঝলকানি সম্পূর্ণভাবে প্রতিরোধ করে, ফলে ঘরের ভেতর তৈরি হয় আরামদায়ক ও নিয়ন্ত্রিত পরিবেশ।\nএই ব্লাইন্ডস বিশেষভাবে উপযোগী বেডরুম, লিভিং রুম, অফিস, কনফারেন্স রুম, হাসপাতাল, হোটেল, হোম থিয়েটার ও বিভিন্ন কমার্শিয়াল স্পেসের জন্য, যেখানে আলো নিয়ন্ত্রণ ও গোপনীয়তা অত্যন্ত গুরুত্বপূর্ণ। ব্ল্যাকআউট ফ্যাব্রিক দিনের আলো পুরোপুরি বন্ধ করে দেয়, যা ভালো ঘুম নিশ্চিত করতে সাহায্য করে এবং স্ক্রিন বা প্রেজেন্টেশনের সময় আলোজনিত সমস্যা কমায়।\nব্লাইন্ডসটিতে রয়েছে স্মুথ ও সাইলেন্ট রোলিং মেকানিজম, শক্তিশালী অ্যালুমিনিয়াম হেডবক্স এবং বটম বার, যা দীর্ঘদিন টেকসই ব্যবহার নিশ্চিত করে। পাশাপাশি এই ব্ল্যাকআউট ফ্যাব্রিক ঘরের তাপমাত্রা নিয়ন্ত্রণেও সহায়ক—গরমে তাপ কম প্রবেশ করতে দেয় এবং শীতে উষ্ণতা ধরে রাখে, ফলে বিদ্যুৎ সাশ্রয় হয়।\nআমাদের ব্ল্যাকআউট রোলার ব্লাইন্ডস পাওয়া যায় বিভিন্ন আধুনিক রঙ, ডিজাইন ও কাস্টম সাইজে, যা যেকোনো ইন্টেরিয়র ডিজাইনের সাথে সহজেই মানিয়ে যায়। ব্লাইন্ডসগুলো ব্যবহার করা খুবই সহজ এবং কম মেইনটেন্যান্স প্রয়োজন। চাইলে এটি ম্যানুয়াল চেইন সিস্টেম অথবা মোটরাইজড (রিমোট কন্ট্রোল) সিস্টেমে পাওয়া যায়, যা আপনার ঘরে যোগ করবে আধুনিকতার ছোঁয়া।"
+      }
+    ],
+    "SunscreenRollerBlinds": [
+      {
+        "id": "ssroller201",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-201 )",
+        "price": 120,
+        "image": "images/SSRoller/201/1.jpg",
+        "images": [
+          "images/SSRoller/201/1.jpg",
+          "images/SSRoller/201/2.jpg",
+          "images/SSRoller/201/3.jpg",
+          "images/SSRoller/201/4.jpg",
+          "images/SSRoller/201/5.jpg",
+          "images/SSRoller/201/8.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller202",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-202 )",
+        "price": 120,
+        "image": "images/SSRoller/202/1.jpg",
+        "images": [
+          "images/SSRoller/202/1.jpg",
+          "images/SSRoller/202/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller204",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-204 )",
+        "price": 120,
+        "image": "images/SSRoller/204/4.jpg",
+        "images": [
+          "images/SSRoller/204/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller248",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-248 )",
+        "price": 120,
+        "image": "images/SSRoller/248/4.jpg",
+        "images": [
+          "images/SSRoller/248/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller249",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-249 )",
+        "price": 120,
+        "image": "images/SSRoller/249/4.jpg",
+        "images": [
+          "images/SSRoller/249/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller250",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-250 )",
+        "price": 120,
+        "image": "images/SSRoller/250/4.jpg",
+        "images": [
+          "images/SSRoller/250/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller252",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-252 )",
+        "price": 120,
+        "image": "images/SSRoller/252/4.jpg",
+        "images": [
+          "images/SSRoller/252/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller260",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-260 )",
+        "price": 120,
+        "image": "images/SSRoller/260/1.jpg",
+        "images": [
+          "images/SSRoller/260/1.jpg",
+          "images/SSRoller/260/2.jpg",
+          "images/SSRoller/260/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller339",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-339 )",
+        "price": 125,
+        "image": "images/SSRoller/339/4.jpg",
+        "images": [
+          "images/SSRoller/339/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller340",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-340 )",
+        "price": 125,
+        "image": "images/SSRoller/340/4.jpg",
+        "images": [
+          "images/SSRoller/340/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller343",
+        "title": "Sunscreen Roller Blinds – ( Color =WBR-343 )",
+        "price": 125,
+        "image": "images/SSRoller/343/4.jpg",
+        "images": [
+          "images/SSRoller/343/4.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      },
+      {
+        "id": "ssroller403",
+        "title": "Sunscreen Roller Blinds – ( Color =WBW-403 )",
+        "price": 180,
+        "image": "images/SSRoller/403/1.jpg",
+        "images": [
+          "images/SSRoller/403/1.jpg"
+        ],
+        "speciality": [
+          "Sunlight Control",
+          "Glare Reduction",
+          "UV Protection",
+          "Outside View",
+          "Easy Operation"
+        ],
+        "highlights": [
+          "Premium sunscreen fabric",
+          "Excellent sunlight & glare control",
+          "Helps reduce UV exposure",
+          "Custom-made according to window size",
+          "Modern & minimalist design"
+        ],
+        "description": "Sunscreen Roller Blinds are a modern and practical window-covering solution designed to control sunlight, reduce glare, and maintain a comfortable indoor environment while preserving the outside view. Their clean and minimalist appearance makes them an excellent choice for both residential and commercial interiors.\n\nPremium Blinds BD offers high-quality Sunscreen Roller Blinds in a variety of colors, fabrics, textures, and customized sizes. The specialized sunscreen fabric helps filter harsh sunlight and UV rays while allowing natural daylight to enter the room, creating a bright and comfortable atmosphere.\n\nThese roller blinds are ideal for homes, offices, banks, hotels, restaurants, showrooms, hospitals, conference rooms, and other commercial spaces. They are particularly suitable for windows where you want to reduce glare and sunlight without completely blocking the outdoor view.\n\nOur Sunscreen Roller Blinds can be customized according to your window dimensions and interior requirements. With smooth operation, durable materials, elegant finishing, and professional installation, they provide a stylish and functional solution for modern spaces."
+      }
+    ],
+    "Blockout-Zebra-Blinds": [
+      {
+        "id": "Blockout-Zebra-Blinds-607",
+        "title": "Blockout Zebra Blinds – ( Color =WBZ-607 )",
+        "price": 170,
+        "image": "images/BOZebra/607/1.webp",
+        "images": [
+          "images/BOZebra/607/1.webp",
+          "images/BOZebra/607/2.webp",
+          "images/BOZebra/607/3.webp",
+          "images/BOZebra/607/4.webp",
+          "images/BOZebra/607/5.webp"
+        ],
+        "highlights": [
+          "✅ Full Blockout & Light Filtering System",
+          "✅ Dual Layer Zebra Fabric Design",
+          "✅ Smooth & Noise-Free Operation",
+          "✅ Strong Aluminum Head Box & Bottom Rail",
+          "✅ Elegant & Modern Look",
+          "✅ Custom Size & Color Available"
+        ],
+        "speciality": [
+          "🔹 100% Privacy & Light Control",
+          "🔹 Heat & UV Protection",
+          "🔹 Long-lasting Premium Fabric",
+          "🔹 Suitable for Home & Commercial Use",
+          "🔹 Easy Maintenance & Durable Performance",
+          "🔹 Available in Manual & Motorized System"
+        ],
+        "description": "Blockout Zebra Blinds হলো আধুনিক ইন্টেরিয়র ডিজাইনের একটি প্রিমিয়াম ও স্মার্ট উইন্ডো কভারিং সলিউশন, যা একসাথে স্টাইল, প্রাইভেসি এবং কার্যকারিতা নিশ্চিত করে। ডাবল লেয়ার ফেব্রিক টেকনোলজির মাধ্যমে এই ব্লাইন্ড আপনাকে সম্পূর্ণ আলো নিয়ন্ত্রণের সুবিধা দেয়—চাইলে ঘরে নরম প্রাকৃতিক আলো প্রবেশ করাতে পারবেন, আবার প্রয়োজনে একদম ফুল ব্ল্যাকআউট করে নিতে পারবেন।\n\nএই ব্লাইন্ডের বিশেষ Zebra ডিজাইনে ট্রান্সপারেন্ট ও ব্ল্যাকআউট স্ট্রাইপ একসাথে কাজ করে, ফলে দিনের যেকোনো সময়ে আলোর মাত্রা আপনার পছন্দ অনুযায়ী সেট করা যায়। উচ্চমানের ব্ল্যাকআউট ফেব্রিক ব্যবহার করার কারণে এটি সূর্যের তীব্র আলো, তাপ এবং ক্ষতিকর UV রশ্মি কার্যকরভাবে প্রতিরোধ করে, যা ঘরের ভিতরের তাপমাত্রা নিয়ন্ত্রণে সহায়ক।\n\nBlockout Zebra Blinds শুধু আরামই দেয় না, বরং আপনার ঘর বা অফিসের ইন্টেরিয়রকে দেয় আধুনিক, এলিগ্যান্ট ও প্রিমিয়াম লুক। এটি বাসাবাড়ি, অ্যাপার্টমেন্ট, কর্পোরেট অফিস, ব্যাংক, কনফারেন্স রুম, গার্মেন্টস, হোটেল ও রেস্টুরেন্ট—সব ধরনের জায়গার জন্য উপযোগী।\n\nমজবুত অ্যালুমিনিয়াম হেড বক্স ও বটম রেইল ব্যবহারের ফলে ব্লাইন্ডটি দীর্ঘদিন টেকসই থাকে এবং স্মুথ ও নীরব অপারেশন নিশ্চিত করে। সহজ ব্যবহার ও কম মেইনটেনেন্সের কারণে এটি দৈনন্দিন ব্যবহারের জন্য একটি নির্ভরযোগ্য সমাধান। প্রয়োজন অনুযায়ী কাস্টম সাইজ, রঙ এবং ম্যানুয়াল অথবা মোটরাইজড অপশনেও পাওয়া যায়।"
+      },
+      {
+        "id": "Blockout-Zebra-Blinds-608",
+        "title": "Blockout Zebra Blinds – ( Color =WBZ-608 )",
+        "price": 170,
+        "image": "images/BOZebra/608/4.webp",
+        "images": [
+          "images/BOZebra/608/4.webp"
+        ],
+        "highlights": [
+          "✅ Full Blockout & Light Filtering System",
+          "✅ Dual Layer Zebra Fabric Design",
+          "✅ Smooth & Noise-Free Operation",
+          "✅ Strong Aluminum Head Box & Bottom Rail",
+          "✅ Elegant & Modern Look",
+          "✅ Custom Size & Color Available"
+        ],
+        "speciality": [
+          "🔹 100% Privacy & Light Control",
+          "🔹 Heat & UV Protection",
+          "🔹 Long-lasting Premium Fabric",
+          "🔹 Suitable for Home & Commercial Use",
+          "🔹 Easy Maintenance & Durable Performance",
+          "🔹 Available in Manual & Motorized System"
+        ],
+        "description": "Blockout Zebra Blinds হলো আধুনিক ইন্টেরিয়র ডিজাইনের একটি প্রিমিয়াম ও স্মার্ট উইন্ডো কভারিং সলিউশন, যা একসাথে স্টাইল, প্রাইভেসি এবং কার্যকারিতা নিশ্চিত করে। ডাবল লেয়ার ফেব্রিক টেকনোলজির মাধ্যমে এই ব্লাইন্ড আপনাকে সম্পূর্ণ আলো নিয়ন্ত্রণের সুবিধা দেয়—চাইলে ঘরে নরম প্রাকৃতিক আলো প্রবেশ করাতে পারবেন, আবার প্রয়োজনে একদম ফুল ব্ল্যাকআউট করে নিতে পারবেন।\n\nএই ব্লাইন্ডের বিশেষ Zebra ডিজাইনে ট্রান্সপারেন্ট ও ব্ল্যাকআউট স্ট্রাইপ একসাথে কাজ করে, ফলে দিনের যেকোনো সময়ে আলোর মাত্রা আপনার পছন্দ অনুযায়ী সেট করা যায়। উচ্চমানের ব্ল্যাকআউট ফেব্রিক ব্যবহার করার কারণে এটি সূর্যের তীব্র আলো, তাপ এবং ক্ষতিকর UV রশ্মি কার্যকরভাবে প্রতিরোধ করে, যা ঘরের ভিতরের তাপমাত্রা নিয়ন্ত্রণে সহায়ক।\n\nBlockout Zebra Blinds শুধু আরামই দেয় না, বরং আপনার ঘর বা অফিসের ইন্টেরিয়রকে দেয় আধুনিক, এলিগ্যান্ট ও প্রিমিয়াম লুক। এটি বাসাবাড়ি, অ্যাপার্টমেন্ট, কর্পোরেট অফিস, ব্যাংক, কনফারেন্স রুম, গার্মেন্টস, হোটেল ও রেস্টুরেন্ট—সব ধরনের জায়গার জন্য উপযোগী।\n\nমজবুত অ্যালুমিনিয়াম হেড বক্স ও বটম রেইল ব্যবহারের ফলে ব্লাইন্ডটি দীর্ঘদিন টেকসই থাকে এবং স্মুথ ও নীরব অপারেশন নিশ্চিত করে। সহজ ব্যবহার ও কম মেইনটেনেন্সের কারণে এটি দৈনন্দিন ব্যবহারের জন্য একটি নির্ভরযোগ্য সমাধান। প্রয়োজন অনুযায়ী কাস্টম সাইজ, রঙ এবং ম্যানুয়াল অথবা মোটরাইজড অপশনেও পাওয়া যায়।"
+      },
+      {
+        "id": "Blockout-Zebra-Blinds-621",
+        "title": "Blockout Zebra Blinds – ( Color =WBZ-621 )",
+        "price": 170,
+        "image": "images/BOZebra/621/1.webp",
+        "images": [
+          "images/BOZebra/621/1.webp",
+          "images/BOZebra/621/2.webp",
+          "images/BOZebra/621/3.webp",
+          "images/BOZebra/621/4.webp"
+        ],
+        "highlights": [
+          "✅ Full Blockout & Light Filtering System",
+          "✅ Dual Layer Zebra Fabric Design",
+          "✅ Smooth & Noise-Free Operation",
+          "✅ Strong Aluminum Head Box & Bottom Rail",
+          "✅ Elegant & Modern Look",
+          "✅ Custom Size & Color Available"
+        ],
+        "speciality": [
+          "🔹 100% Privacy & Light Control",
+          "🔹 Heat & UV Protection",
+          "🔹 Long-lasting Premium Fabric",
+          "🔹 Suitable for Home & Commercial Use",
+          "🔹 Easy Maintenance & Durable Performance",
+          "🔹 Available in Manual & Motorized System"
+        ],
+        "description": "Blockout Zebra Blinds হলো আধুনিক ইন্টেরিয়র ডিজাইনের একটি প্রিমিয়াম ও স্মার্ট উইন্ডো কভারিং সলিউশন, যা একসাথে স্টাইল, প্রাইভেসি এবং কার্যকারিতা নিশ্চিত করে। ডাবল লেয়ার ফেব্রিক টেকনোলজির মাধ্যমে এই ব্লাইন্ড আপনাকে সম্পূর্ণ আলো নিয়ন্ত্রণের সুবিধা দেয়—চাইলে ঘরে নরম প্রাকৃতিক আলো প্রবেশ করাতে পারবেন, আবার প্রয়োজনে একদম ফুল ব্ল্যাকআউট করে নিতে পারবেন।\n\nএই ব্লাইন্ডের বিশেষ Zebra ডিজাইনে ট্রান্সপারেন্ট ও ব্ল্যাকআউট স্ট্রাইপ একসাথে কাজ করে, ফলে দিনের যেকোনো সময়ে আলোর মাত্রা আপনার পছন্দ অনুযায়ী সেট করা যায়। উচ্চমানের ব্ল্যাকআউট ফেব্রিক ব্যবহার করার কারণে এটি সূর্যের তীব্র আলো, তাপ এবং ক্ষতিকর UV রশ্মি কার্যকরভাবে প্রতিরোধ করে, যা ঘরের ভিতরের তাপমাত্রা নিয়ন্ত্রণে সহায়ক।\n\nBlockout Zebra Blinds শুধু আরামই দেয় না, বরং আপনার ঘর বা অফিসের ইন্টেরিয়রকে দেয় আধুনিক, এলিগ্যান্ট ও প্রিমিয়াম লুক। এটি বাসাবাড়ি, অ্যাপার্টমেন্ট, কর্পোরেট অফিস, ব্যাংক, কনফারেন্স রুম, গার্মেন্টস, হোটেল ও রেস্টুরেন্ট—সব ধরনের জায়গার জন্য উপযোগী।\n\nমজবুত অ্যালুমিনিয়াম হেড বক্স ও বটম রেইল ব্যবহারের ফলে ব্লাইন্ডটি দীর্ঘদিন টেকসই থাকে এবং স্মুথ ও নীরব অপারেশন নিশ্চিত করে। সহজ ব্যবহার ও কম মেইনটেনেন্সের কারণে এটি দৈনন্দিন ব্যবহারের জন্য একটি নির্ভরযোগ্য সমাধান। প্রয়োজন অনুযায়ী কাস্টম সাইজ, রঙ এবং ম্যানুয়াল অথবা মোটরাইজড অপশনেও পাওয়া যায়।"
+      },
+      {
+        "id": "Blockout-Zebra-Blinds-622",
+        "title": "Blockout Zebra Blinds – ( Color =WBZ-622 )",
+        "price": 170,
+        "image": "images/BOZebra/622/1.jpg",
+        "images": [
+          "images/BOZebra/622/1.jpg",
+          "images/BOZebra/622/2.jpg",
+          "images/BOZebra/622/3.jpg",
+          "images/BOZebra/622/4.mp4"
+        ],
+        "highlights": [
+          "✅ Full Blockout & Light Filtering System",
+          "✅ Dual Layer Zebra Fabric Design",
+          "✅ Smooth & Noise-Free Operation",
+          "✅ Strong Aluminum Head Box & Bottom Rail",
+          "✅ Elegant & Modern Look",
+          "✅ Custom Size & Color Available"
+        ],
+        "speciality": [
+          "🔹 100% Privacy & Light Control",
+          "🔹 Heat & UV Protection",
+          "🔹 Long-lasting Premium Fabric",
+          "🔹 Suitable for Home & Commercial Use",
+          "🔹 Easy Maintenance & Durable Performance",
+          "🔹 Available in Manual & Motorized System"
+        ],
+        "description": "Blockout Zebra Blinds হলো আধুনিক ইন্টেরিয়র ডিজাইনের একটি প্রিমিয়াম ও স্মার্ট উইন্ডো কভারিং সলিউশন, যা একসাথে স্টাইল, প্রাইভেসি এবং কার্যকারিতা নিশ্চিত করে। ডাবল লেয়ার ফেব্রিক টেকনোলজির মাধ্যমে এই ব্লাইন্ড আপনাকে সম্পূর্ণ আলো নিয়ন্ত্রণের সুবিধা দেয়—চাইলে ঘরে নরম প্রাকৃতিক আলো প্রবেশ করাতে পারবেন, আবার প্রয়োজনে একদম ফুল ব্ল্যাকআউট করে নিতে পারবেন।\n\nএই ব্লাইন্ডের বিশেষ Zebra ডিজাইনে ট্রান্সপারেন্ট ও ব্ল্যাকআউট স্ট্রাইপ একসাথে কাজ করে, ফলে দিনের যেকোনো সময়ে আলোর মাত্রা আপনার পছন্দ অনুযায়ী সেট করা যায়। উচ্চমানের ব্ল্যাকআউট ফেব্রিক ব্যবহার করার কারণে এটি সূর্যের তীব্র আলো, তাপ এবং ক্ষতিকর UV রশ্মি কার্যকরভাবে প্রতিরোধ করে, যা ঘরের ভিতরের তাপমাত্রা নিয়ন্ত্রণে সহায়ক।\n\nBlockout Zebra Blinds শুধু আরামই দেয় না, বরং আপনার ঘর বা অফিসের ইন্টেরিয়রকে দেয় আধুনিক, এলিগ্যান্ট ও প্রিমিয়াম লুক। এটি বাসাবাড়ি, অ্যাপার্টমেন্ট, কর্পোরেট অফিস, ব্যাংক, কনফারেন্স রুম, গার্মেন্টস, হোটেল ও রেস্টুরেন্ট—সব ধরনের জায়গার জন্য উপযোগী।\n\nমজবুত অ্যালুমিনিয়াম হেড বক্স ও বটম রেইল ব্যবহারের ফলে ব্লাইন্ডটি দীর্ঘদিন টেকসই থাকে এবং স্মুথ ও নীরব অপারেশন নিশ্চিত করে। সহজ ব্যবহার ও কম মেইনটেনেন্সের কারণে এটি দৈনন্দিন ব্যবহারের জন্য একটি নির্ভরযোগ্য সমাধান। প্রয়োজন অনুযায়ী কাস্টম সাইজ, রঙ এবং ম্যানুয়াল অথবা মোটরাইজড অপশনেও পাওয়া যায়।"
+      },
+      {
+        "id": "Blockout-Zebra-Blinds-623",
+        "title": "Blockout Zebra Blinds – ( Color =WBZ-623 )",
+        "price": 170,
+        "image": "images/BOZebra/623/4.webp",
+        "images": [
+          "images/BOZebra/623/4.webp"
+        ],
+        "highlights": [
+          "✅ Full Blockout & Light Filtering System",
+          "✅ Dual Layer Zebra Fabric Design",
+          "✅ Smooth & Noise-Free Operation",
+          "✅ Strong Aluminum Head Box & Bottom Rail",
+          "✅ Elegant & Modern Look",
+          "✅ Custom Size & Color Available"
+        ],
+        "speciality": [
+          "🔹 100% Privacy & Light Control",
+          "🔹 Heat & UV Protection",
+          "🔹 Long-lasting Premium Fabric",
+          "🔹 Suitable for Home & Commercial Use",
+          "🔹 Easy Maintenance & Durable Performance",
+          "🔹 Available in Manual & Motorized System"
+        ],
+        "description": "Blockout Zebra Blinds হলো আধুনিক ইন্টেরিয়র ডিজাইনের একটি প্রিমিয়াম ও স্মার্ট উইন্ডো কভারিং সলিউশন, যা একসাথে স্টাইল, প্রাইভেসি এবং কার্যকারিতা নিশ্চিত করে। ডাবল লেয়ার ফেব্রিক টেকনোলজির মাধ্যমে এই ব্লাইন্ড আপনাকে সম্পূর্ণ আলো নিয়ন্ত্রণের সুবিধা দেয়—চাইলে ঘরে নরম প্রাকৃতিক আলো প্রবেশ করাতে পারবেন, আবার প্রয়োজনে একদম ফুল ব্ল্যাকআউট করে নিতে পারবেন।\n\nএই ব্লাইন্ডের বিশেষ Zebra ডিজাইনে ট্রান্সপারেন্ট ও ব্ল্যাকআউট স্ট্রাইপ একসাথে কাজ করে, ফলে দিনের যেকোনো সময়ে আলোর মাত্রা আপনার পছন্দ অনুযায়ী সেট করা যায়। উচ্চমানের ব্ল্যাকআউট ফেব্রিক ব্যবহার করার কারণে এটি সূর্যের তীব্র আলো, তাপ এবং ক্ষতিকর UV রশ্মি কার্যকরভাবে প্রতিরোধ করে, যা ঘরের ভিতরের তাপমাত্রা নিয়ন্ত্রণে সহায়ক।\n\nBlockout Zebra Blinds শুধু আরামই দেয় না, বরং আপনার ঘর বা অফিসের ইন্টেরিয়রকে দেয় আধুনিক, এলিগ্যান্ট ও প্রিমিয়াম লুক। এটি বাসাবাড়ি, অ্যাপার্টমেন্ট, কর্পোরেট অফিস, ব্যাংক, কনফারেন্স রুম, গার্মেন্টস, হোটেল ও রেস্টুরেন্ট—সব ধরনের জায়গার জন্য উপযোগী।\n\nমজবুত অ্যালুমিনিয়াম হেড বক্স ও বটম রেইল ব্যবহারের ফলে ব্লাইন্ডটি দীর্ঘদিন টেকসই থাকে এবং স্মুথ ও নীরব অপারেশন নিশ্চিত করে। সহজ ব্যবহার ও কম মেইনটেনেন্সের কারণে এটি দৈনন্দিন ব্যবহারের জন্য একটি নির্ভরযোগ্য সমাধান। প্রয়োজন অনুযায়ী কাস্টম সাইজ, রঙ এবং ম্যানুয়াল অথবা মোটরাইজড অপশনেও পাওয়া যায়।"
+      },
+      {
+        "id": "Blockout-Zebra-Blinds-636",
+        "title": "Blockout Zebra Blinds – ( Color =WBZ-636 )",
+        "price": 170,
+        "image": "images/BOZebra/636/2.jpg",
+        "images": [
+          "images/BOZebra/636/1.jpg",
+          "images/BOZebra/636/2.jpg",
+          "images/BOZebra/636/3.jpg",
+          "images/BOZebra/636/4.jpg",
+          "images/BOZebra/636/5.jpg"
+        ],
+        "highlights": [
+          "✅ Full Blockout & Light Filtering System",
+          "✅ Dual Layer Zebra Fabric Design",
+          "✅ Smooth & Noise-Free Operation",
+          "✅ Strong Aluminum Head Box & Bottom Rail",
+          "✅ Elegant & Modern Look",
+          "✅ Custom Size & Color Available"
+        ],
+        "speciality": [
+          "🔹 100% Privacy & Light Control",
+          "🔹 Heat & UV Protection",
+          "🔹 Long-lasting Premium Fabric",
+          "🔹 Suitable for Home & Commercial Use",
+          "🔹 Easy Maintenance & Durable Performance",
+          "🔹 Available in Manual & Motorized System"
+        ],
+        "description": "Blockout Zebra Blinds হলো আধুনিক ইন্টেরিয়র ডিজাইনের একটি প্রিমিয়াম ও স্মার্ট উইন্ডো কভারিং সলিউশন, যা একসাথে স্টাইল, প্রাইভেসি এবং কার্যকারিতা নিশ্চিত করে। ডাবল লেয়ার ফেব্রিক টেকনোলজির মাধ্যমে এই ব্লাইন্ড আপনাকে সম্পূর্ণ আলো নিয়ন্ত্রণের সুবিধা দেয়—চাইলে ঘরে নরম প্রাকৃতিক আলো প্রবেশ করাতে পারবেন, আবার প্রয়োজনে একদম ফুল ব্ল্যাকআউট করে নিতে পারবেন।\n\nএই ব্লাইন্ডের বিশেষ Zebra ডিজাইনে ট্রান্সপারেন্ট ও ব্ল্যাকআউট স্ট্রাইপ একসাথে কাজ করে, ফলে দিনের যেকোনো সময়ে আলোর মাত্রা আপনার পছন্দ অনুযায়ী সেট করা যায়। উচ্চমানের ব্ল্যাকআউট ফেব্রিক ব্যবহার করার কারণে এটি সূর্যের তীব্র আলো, তাপ এবং ক্ষতিকর UV রশ্মি কার্যকরভাবে প্রতিরোধ করে, যা ঘরের ভিতরের তাপমাত্রা নিয়ন্ত্রণে সহায়ক।\n\nBlockout Zebra Blinds শুধু আরামই দেয় না, বরং আপনার ঘর বা অফিসের ইন্টেরিয়রকে দেয় আধুনিক, এলিগ্যান্ট ও প্রিমিয়াম লুক। এটি বাসাবাড়ি, অ্যাপার্টমেন্ট, কর্পোরেট অফিস, ব্যাংক, কনফারেন্স রুম, গার্মেন্টস, হোটেল ও রেস্টুরেন্ট—সব ধরনের জায়গার জন্য উপযোগী।\n\nমজবুত অ্যালুমিনিয়াম হেড বক্স ও বটম রেইল ব্যবহারের ফলে ব্লাইন্ডটি দীর্ঘদিন টেকসই থাকে এবং স্মুথ ও নীরব অপারেশন নিশ্চিত করে। সহজ ব্যবহার ও কম মেইনটেনেন্সের কারণে এটি দৈনন্দিন ব্যবহারের জন্য একটি নির্ভরযোগ্য সমাধান। প্রয়োজন অনুযায়ী কাস্টম সাইজ, রঙ এবং ম্যানুয়াল অথবা মোটরাইজড অপশনেও পাওয়া যায়।"
+      },
+      {
+        "id": "Blockout-Zebra-Blinds-641",
+        "title": "Blockout Zebra Blinds – ( Color =WBZ-641 )",
+        "price": 170,
+        "image": "images/BOZebra/641/2.webp",
+        "images": [
+          "images/BOZebra/641/1.webp",
+          "images/BOZebra/641/2.webp",
+          "images/BOZebra/641/3.webp",
+          "images/BOZebra/641/4.webp"
+        ],
+        "highlights": [
+          "✅ Full Blockout & Light Filtering System",
+          "✅ Dual Layer Zebra Fabric Design",
+          "✅ Smooth & Noise-Free Operation",
+          "✅ Strong Aluminum Head Box & Bottom Rail",
+          "✅ Elegant & Modern Look",
+          "✅ Custom Size & Color Available"
+        ],
+        "speciality": [
+          "🔹 100% Privacy & Light Control",
+          "🔹 Heat & UV Protection",
+          "🔹 Long-lasting Premium Fabric",
+          "🔹 Suitable for Home & Commercial Use",
+          "🔹 Easy Maintenance & Durable Performance",
+          "🔹 Available in Manual & Motorized System"
+        ],
+        "description": "Blockout Zebra Blinds হলো আধুনিক ইন্টেরিয়র ডিজাইনের একটি প্রিমিয়াম ও স্মার্ট উইন্ডো কভারিং সলিউশন, যা একসাথে স্টাইল, প্রাইভেসি এবং কার্যকারিতা নিশ্চিত করে। ডাবল লেয়ার ফেব্রিক টেকনোলজির মাধ্যমে এই ব্লাইন্ড আপনাকে সম্পূর্ণ আলো নিয়ন্ত্রণের সুবিধা দেয়—চাইলে ঘরে নরম প্রাকৃতিক আলো প্রবেশ করাতে পারবেন, আবার প্রয়োজনে একদম ফুল ব্ল্যাকআউট করে নিতে পারবেন।\n\nএই ব্লাইন্ডের বিশেষ Zebra ডিজাইনে ট্রান্সপারেন্ট ও ব্ল্যাকআউট স্ট্রাইপ একসাথে কাজ করে, ফলে দিনের যেকোনো সময়ে আলোর মাত্রা আপনার পছন্দ অনুযায়ী সেট করা যায়। উচ্চমানের ব্ল্যাকআউট ফেব্রিক ব্যবহার করার কারণে এটি সূর্যের তীব্র আলো, তাপ এবং ক্ষতিকর UV রশ্মি কার্যকরভাবে প্রতিরোধ করে, যা ঘরের ভিতরের তাপমাত্রা নিয়ন্ত্রণে সহায়ক।\n\nBlockout Zebra Blinds শুধু আরামই দেয় না, বরং আপনার ঘর বা অফিসের ইন্টেরিয়রকে দেয় আধুনিক, এলিগ্যান্ট ও প্রিমিয়াম লুক। এটি বাসাবাড়ি, অ্যাপার্টমেন্ট, কর্পোরেট অফিস, ব্যাংক, কনফারেন্স রুম, গার্মেন্টস, হোটেল ও রেস্টুরেন্ট—সব ধরনের জায়গার জন্য উপযোগী।\n\nমজবুত অ্যালুমিনিয়াম হেড বক্স ও বটম রেইল ব্যবহারের ফলে ব্লাইন্ডটি দীর্ঘদিন টেকসই থাকে এবং স্মুথ ও নীরব অপারেশন নিশ্চিত করে। সহজ ব্যবহার ও কম মেইনটেনেন্সের কারণে এটি দৈনন্দিন ব্যবহারের জন্য একটি নির্ভরযোগ্য সমাধান। প্রয়োজন অনুযায়ী কাস্টম সাইজ, রঙ এবং ম্যানুয়াল অথবা মোটরাইজড অপশনেও পাওয়া যায়।"
+      }
+    ]
+  }
+}
