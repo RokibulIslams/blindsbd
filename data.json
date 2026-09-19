@@ -91,12 +91,12 @@
     },
     {
       "title": "Sunscreen Roller Blinds – ( Color =WBR-201 )",
-      "image": "images/SSRoller/201/2.jpg",
+      "image": "images/SSRoller/201/2.webp",
       "link": "product-details.html?id=ssroller201"
     },
     {
       "title": "Sunscreen Roller Blinds – ( Color =WBR-202 )",
-      "image": "images/SSRoller/202/1.jpg",
+      "image": "images/SSRoller/202/1.webp",
       "link": "product-details.html?id=ssroller202"
     }
   ],
@@ -627,14 +627,14 @@
         "id": "ssroller201",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-201 )",
         "price": 120,
-        "image": "images/SSRoller/201/1.jpg",
+        "image": "images/SSRoller/201/1.webp",
         "images": [
-          "images/SSRoller/201/1.jpg",
-          "images/SSRoller/201/2.jpg",
-          "images/SSRoller/201/3.jpg",
-          "images/SSRoller/201/4.jpg",
-          "images/SSRoller/201/5.jpg",
-          "images/SSRoller/201/8.jpg"
+          "images/SSRoller/201/1.webp",
+          "images/SSRoller/201/2.webp",
+          "images/SSRoller/201/3.webp",
+          "images/SSRoller/201/4.webp",
+          "images/SSRoller/201/5.webp",
+          "images/SSRoller/201/8.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -656,10 +656,10 @@
         "id": "ssroller202",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-202 )",
         "price": 120,
-        "image": "images/SSRoller/202/1.jpg",
+        "image": "images/SSRoller/202/1.webp",
         "images": [
-          "images/SSRoller/202/1.jpg",
-          "images/SSRoller/202/4.jpg"
+          "images/SSRoller/202/1.webp",
+          "images/SSRoller/202/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -681,9 +681,9 @@
         "id": "ssroller204",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-204 )",
         "price": 120,
-        "image": "images/SSRoller/204/4.jpg",
+        "image": "images/SSRoller/204/4.webp",
         "images": [
-          "images/SSRoller/204/4.jpg"
+          "images/SSRoller/204/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -705,9 +705,9 @@
         "id": "ssroller248",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-248 )",
         "price": 120,
-        "image": "images/SSRoller/248/4.jpg",
+        "image": "images/SSRoller/248/4.webp",
         "images": [
-          "images/SSRoller/248/4.jpg"
+          "images/SSRoller/248/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -729,9 +729,9 @@
         "id": "ssroller249",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-249 )",
         "price": 120,
-        "image": "images/SSRoller/249/4.jpg",
+        "image": "images/SSRoller/249/4.webp",
         "images": [
-          "images/SSRoller/249/4.jpg"
+          "images/SSRoller/249/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -753,9 +753,9 @@
         "id": "ssroller250",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-250 )",
         "price": 120,
-        "image": "images/SSRoller/250/4.jpg",
+        "image": "images/SSRoller/250/4.webp",
         "images": [
-          "images/SSRoller/250/4.jpg"
+          "images/SSRoller/250/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -777,9 +777,9 @@
         "id": "ssroller252",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-252 )",
         "price": 120,
-        "image": "images/SSRoller/252/4.jpg",
+        "image": "images/SSRoller/252/4.webp",
         "images": [
-          "images/SSRoller/252/4.jpg"
+          "images/SSRoller/252/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -801,11 +801,11 @@
         "id": "ssroller260",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-260 )",
         "price": 120,
-        "image": "images/SSRoller/260/1.jpg",
+        "image": "images/SSRoller/260/1.webp",
         "images": [
-          "images/SSRoller/260/1.jpg",
-          "images/SSRoller/260/2.jpg",
-          "images/SSRoller/260/4.jpg"
+          "images/SSRoller/260/1.webp",
+          "images/SSRoller/260/2.webp",
+          "images/SSRoller/260/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -827,9 +827,9 @@
         "id": "ssroller339",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-339 )",
         "price": 125,
-        "image": "images/SSRoller/339/4.jpg",
+        "image": "images/SSRoller/339/4.webp",
         "images": [
-          "images/SSRoller/339/4.jpg"
+          "images/SSRoller/339/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -851,9 +851,9 @@
         "id": "ssroller340",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-340 )",
         "price": 125,
-        "image": "images/SSRoller/340/4.jpg",
+        "image": "images/SSRoller/340/4.webp",
         "images": [
-          "images/SSRoller/340/4.jpg"
+          "images/SSRoller/340/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -875,9 +875,9 @@
         "id": "ssroller343",
         "title": "Sunscreen Roller Blinds – ( Color =WBR-343 )",
         "price": 125,
-        "image": "images/SSRoller/343/4.jpg",
+        "image": "images/SSRoller/343/4.webp",
         "images": [
-          "images/SSRoller/343/4.jpg"
+          "images/SSRoller/343/4.webp"
         ],
         "speciality": [
           "Sunlight Control",
@@ -899,9 +899,9 @@
         "id": "ssroller403",
         "title": "Sunscreen Roller Blinds – ( Color =WBW-403 )",
         "price": 180,
-        "image": "images/SSRoller/403/1.jpg",
+        "image": "images/SSRoller/403/1.webp",
         "images": [
-          "images/SSRoller/403/1.jpg"
+          "images/SSRoller/403/1.webp"
         ],
         "speciality": [
           "Sunlight Control",
