@@ -1,1 +1,613 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Premium Blinds BD | Zebra, Roller & Window Blinds in Dhaka</title>
+    
+<meta name="description" content="Premium window blinds in Dhaka, Bangladesh. Zebra, Roller, Vertical, Venetian & Motorized Blinds with custom sizing, measurement and professional installation.">
+    
+    <link rel="canonical" href="https://blinds.bd/">
+    
+    <meta property="og:title" content="Premium Blinds BD | Zebra, Roller & Window Blinds in Dhaka">
+    
+<meta property="og:description" content="Premium window blinds in Dhaka, Bangladesh. Zebra, Roller, Vertical, Venetian & Motorized Blinds with custom sizing, measurement and professional installation.">
+    
+<meta property="og:url" content="https://blinds.bd/">
+    
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Premium Blinds BD">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Premium Blinds BD | Zebra, Roller & Window Blinds in Dhaka">
+<meta name="twitter:description" content="Premium window blinds in Dhaka, Bangladesh. Zebra, Roller, Vertical, Venetian & Motorized Blinds with custom sizing, measurement and professional installation.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+<link rel="preload" as="image" href="images/sliders/slider1.webp" fetchpriority="high">
 
+<style>
+html, body { height: 100%; margin: 0; }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  transition: 0.3s;
+  animation: fadeInPage 0.35s ease-out;
+  text-rendering: optimizeSpeed;
+}
+
+@keyframes fadeInPage {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+body.dark { background:#1a1a1a; color:white; }
+.main-content { flex: 1; }
+
+/* ✅ NAVBAR */
+nav {
+  background:#222; color:white;
+  padding:12px 20px;
+  display:flex; justify-content:space-between; align-items:center;
+  position: relative;
+}
+nav .logo-box { display:flex; align-items:center; gap:10px; }
+nav .logo-box img { height:35px; width:auto; }
+nav ul { list-style:none; display:flex; gap:20px; margin:0; padding:0; }
+nav ul li { cursor:pointer; }
+nav .right-side { display:flex; align-items:center; gap:10px; }
+nav input {
+  padding:6px 10px;
+  border-radius:4px;
+  border:none;
+  outline:none;
+}
+nav.scrolled {
+  background: #111827;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.dark-btn {
+  padding:6px 12px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  font-size:22px;
+  color:white;
+}
+
+/* ✅ SEARCH RESULT BOX */
+#searchResults {
+  position:absolute;
+  top:60px;
+  right:20px;
+  width:250px;
+  background:rgba(0, 255, 0, 0.418);
+  border-radius:8px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.2);
+  display:none;
+  z-index:999;
+}
+    @media (max-width: 600px) {
+  nav .right-side input {
+    display: none;
+  }
+  .search-icon {
+    display: block;
+  }
+    }
+
+/* ✅ ULTRA-PREMIUM SLIDER */
+.slider-wrapper {
+  position: relative;
+  width: 98%;
+  height: 650px;
+  overflow: hidden;
+  border-radius: 12px;
+    margin: 10px;
+}
+@media (max-width: 600px) {
+  .slider-wrapper {
+      height: 350px;
+      width:95%
+    }
+}
+
+.slider { width: 100%; height: 100%; position: relative; }
+
+.slide-item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+.slide-item:focus-visible {
+  box-shadow: inset 0 0 0 3px #f0a500;
+}
+.slider-wrapper {
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
+}
+.slide-item { pointer-events: none; }
+.slide-item.active { opacity: 1; pointer-events: auto; }
+
+/* ✅ IMAGE */
+.slide-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  background: #e9e9e9;
+  contain: paint;
+}
+
+/* ✅ VIDEO */
+.slide-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ✅ BLUR BACKGROUND */
+.slide-blur-bg { display:none; }
+
+/* ✅ GRADIENT OVERLAY */
+.gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  top: 0;
+  left: 0;
+}
+
+/* ✅ TEXT */
+.slide-text-box {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: white;
+  text-shadow: 0 3px 10px black;
+}
+.slide-text-box h2 { font-size: 28px; margin: 0; }
+.slide-text-box p { margin: 5px 0 10px; }
+.slide-btn {
+  padding: 8px 15px;
+  background: #f0a500;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ✅ CATEGORY + RECENT */
+.slider-arrows .arrow {
+  position:absolute; top:50%; transform:translateY(-50%);
+  width:46px; height:46px; border:0; border-radius:50%;
+  background:rgba(0,0,0,.45); color:#fff; font-size:28px;
+  line-height:46px; text-align:center; cursor:pointer; z-index:20;
+  transition:.25s ease;
+}
+.slider-arrows .arrow:hover { background:rgba(0,0,0,.75); transform:translateY(-50%) scale(1.06); }
+.slider-arrows .left { left:16px; }
+.slider-arrows .right { right:16px; }
+.slider-dots {
+  position:absolute; left:0; right:0; bottom:16px; display:flex;
+  justify-content:center; align-items:center; gap:8px; z-index:20;
+}
+.slider-dots span {
+  width:10px; height:10px; border-radius:50%;
+  background:rgba(255,255,255,.65); border:1px solid rgba(0,0,0,.25);
+  cursor:pointer; transition:.25s ease;
+}
+.slider-dots span.active { width:24px; border-radius:20px; background:#fff; }
+
+.section { padding:25px 20px; max-width:1100px; margin:auto; }
+.categories {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+  gap:20px;
+}
+.cat-card {
+  background:white; border-radius:10px; overflow:hidden;
+  box-shadow:0 3px 10px rgba(0,0,0,0.15);
+  cursor:pointer; transition:0.3s;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cat-card img {
+  width:100%; height:150px;
+  object-fit:cover; object-position:center;
+}
+.cat-card h4 { margin:0; padding:15px; text-align:center; }
+
+    body.dark .cat-card{
+        background:#1b0064
+    }
+
+/* ✅ FEATURED */
+.featured-box {
+  background:rgb(255, 255, 255); padding:20px;
+  border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ✅ Footer always bottom */
+footer {
+  position: static;      /* সবসময় নিচে থাকবে */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+  cursor: pointer;      /* Clickable look */
+  z-index: 50;
+}
+
+footer:hover {
+  background: #020617;  /* Hover effect */
+}
+</style>
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Premium Blinds BD",
+  "url": "https://blinds.bd/",
+  "logo": "https://blinds.bd/images/logo.png",
+  "image": "https://blinds.bd/images/logo.png",
+  "telephone": "+8801570220362",
+  "email": "premiumblindsbd@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "300, Shadinota Sharani, Uttor Badda",
+    "addressLocality": "Dhaka",
+    "postalCode": "1212",
+    "addressCountry": "BD"
+  },
+  "sameAs": [
+    "https://www.facebook.com/PremiumBlinds",
+    "https://maps.app.goo.gl/qzHBx8i8eEuJBk9H8"
+  ]
+}
+    </script>
+    
+    
+</head>
+<body>
+
+<div class="main-content">
+
+<!-- ✅ NAVBAR -->
+<nav>
+  <div class="logo-box">
+    <img src="images/logo.png" alt="Premium Blinds BD logo">
+
+  <ul>
+    <li onclick="location.href='index.html'">Home</li>
+    <li onclick="location.href='category.html'">Category</li>
+  </ul>
+      
+    </div>
+
+  <div class="right-side">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button class="dark-btn" onclick="toggleDark()" id="darkIcon">🌙</button>
+  </div>
+
+  <div id="searchResults"></div>
+</nav>
+
+<!-- ✅ ULTRA-PREMIUM SLIDER -->
+<div class="slider-wrapper">
+  <div class="slider" id="sliderBox"></div>
+
+  <div class="slider-arrows" aria-label="Slider navigation">
+    <button type="button" class="arrow left" onclick="event.stopPropagation(); prevSlide()" aria-label="Previous slide">&#10094;</button>
+    <button type="button" class="arrow right" onclick="event.stopPropagation(); nextSlide()" aria-label="Next slide">&#10095;</button>
+  </div>
+
+  <div class="slider-dots" id="sliderDots" aria-label="Slider pagination"></div>
+
+</div>
+
+<!-- ✅ CATEGORY SECTION -->
+<section class="section">
+  <h1>Window Blinds in Bangladesh</h1>
+  <h2>All Categories</h2>
+  <div class="categories" id="categoryBox"></div>
+</section>
+
+<!-- ✅ FEATURED -->
+<section class="section">
+  <h2>Zebra Blinds</h2>
+  <div class="categories" id="featuredBox"></div>
+</section>
+
+<!-- ✅ RECENT POSTS -->
+<section class="section">
+  <h2>Roller Blinds</h2>
+  <div class="categories" id="recentBox"></div>
+</section>
+
+</div>
+
+<!-- ✅ FOOTER -->
+<footer id="siteFooter">
+  <p>© 2026 Premium Blinds BD | Designed by Rokibul Islam Rahat</p>
+</footer>
+<script>
+
+/* ✅ DARK MODE */
+function toggleDark() {
+  document.body.classList.toggle("dark");
+  let icon = document.getElementById("darkIcon");
+  icon.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+}
+
+let searchData = [];
+let sliderData = [];
+let slideIndex = 0;
+
+
+/* ✅ LOAD EVERYTHING FROM ONE JSON FILE */
+fetch("data.json?v=" + Date.now(), {
+    cache: "no-store"
+})
+  .then(res => res.json())
+  .then(data => {
+
+    searchData = data.search;
+    sliderData = data.slider;
+
+    loadSlider();
+    loadCategories(data.categories);
+    loadRecent(data.recent);
+    loadFeatured(data.featured);
+  });
+
+/* ✅ SEARCH FUNCTION */
+const searchInput = document.getElementById("searchInput");
+const searchResults = document.getElementById("searchResults");
+
+searchInput.addEventListener("keyup", function () {
+  let keyword = this.value.toLowerCase().trim();
+
+  if (keyword.length === 0) {
+    searchResults.style.display = "none";
+    return;
+  }
+
+  let filtered = searchData.filter(item =>
+    item.title.toLowerCase().includes(keyword)
+  );
+
+  if (filtered.length === 0) {
+    searchResults.innerHTML = `<p style="padding:10px;">No results found</p>`;
+    searchResults.style.display = "block";
+    return;
+  }
+
+  searchResults.innerHTML = filtered
+    .map(item => `
+      <div onclick="location.href='${item.link}'"
+           style="padding:10px; border-bottom:1px solid #eee; cursor:pointer; display:flex; align-items:center;">
+        <img src="${cacheBust(item.image)}" width="40" height="40" loading="lazy" decoding="async" style="width:40px; height:40px; object-fit:cover; border-radius:5px; margin-right:10px;">
+        <span>${item.title}</span>
+      </div>
+    `)
+    .join("");
+
+  searchResults.style.display = "block";
+});
+
+/* ✅ Hide search results when clicking outside */
+document.addEventListener("click", function (e) {
+  if (!searchInput.contains(e.target)) {
+    searchResults.style.display = "none";
+  }
+});
+
+/* ✅ ULTRA-PREMIUM SLIDER FUNCTIONS */
+// Keep image URLs cacheable for speed. Increase IMAGE_VERSION only when replacing
+// an image with the same filename and you want browsers to fetch the new file.
+const IMAGE_VERSION = '1';
+function cacheBust(url) {
+  if (!url) return '';
+  if (/^(data:|blob:|https?:\/\/)/i.test(url)) return url;
+  const separator = url.includes('?') ? '&' : '?';
+  return url + separator + 'v=' + IMAGE_VERSION;
+}
+
+let autoSlideTimer = null;
+
+/* ✅ CLICKABLE + ACCESSIBLE SLIDER */
+function loadSlider() {
+  const sliderBox = document.getElementById("sliderBox");
+  const dotsBox = document.getElementById("sliderDots");
+  if (!sliderBox || !dotsBox || !Array.isArray(sliderData) || sliderData.length === 0) return;
+
+  sliderBox.innerHTML = "";
+  dotsBox.innerHTML = "";
+
+  sliderData.forEach((s, i) => {
+    const image = cacheBust(s.image || '');
+
+    sliderBox.innerHTML += `
+      <div class="slide-item ${i === 0 ? 'active' : ''}"
+           tabindex="0" role="link"
+           aria-label="Open ${s.title || 'product'}"
+           onclick="openSlideLink(${i}, event)"
+           onkeydown="slideKeydown(${i}, event)">
+
+        ${s.type === "video"
+          ? `<video src="${cacheBust(s.video || '')}" autoplay muted loop playsinline preload="metadata"></video>`
+          : `<img src="${image}" alt="${s.title || 'Premium Blinds BD'}" width="1600" height="600" decoding="async" ${i === 0 ? 'fetchpriority="high" loading="eager"' : 'loading="lazy"'}>`}
+
+        <div class="gradient-overlay"></div>
+
+        <div class="slide-text-box">
+          <h2>${s.title || ''}</h2>
+          <p>${s.desc || ''}</p>
+        </div>
+      </div>`;
+
+    dotsBox.innerHTML += `
+      <span class="${i === 0 ? 'active' : ''}" role="button" tabindex="0"
+            aria-label="Go to slide ${i + 1}"
+            onclick="event.stopPropagation(); goToSlide(${i})"
+            onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();goToSlide(${i})}"></span>`;
+  });
+
+  slideIndex = 0;
+  updateSlider();
+  startAutoSlide();
+  enableSliderSwipe();
+}
+
+function openSlideLink(index, event) {
+  if (event) event.preventDefault();
+  const slide = sliderData[index];
+  const link = slide && typeof slide.link === 'string' ? slide.link.trim() : '';
+  if (!link) {
+    console.warn('No link found for slider:', index, slide);
+    return;
+  }
+  window.location.href = link;
+}
+
+function slideKeydown(index, event) {
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault();
+    openSlideLink(index, event);
+  }
+}
+
+function updateSlider() {
+  const slides = document.querySelectorAll(".slide-item");
+  const dots = document.querySelectorAll("#sliderDots span");
+  if (!slides.length) return;
+  slides.forEach((slide, i) => slide.classList.toggle("active", i === slideIndex));
+  dots.forEach((dot, i) => {
+    dot.classList.toggle("active", i === slideIndex);
+    dot.setAttribute('aria-current', i === slideIndex ? 'true' : 'false');
+  });
+}
+
+function nextSlide() {
+  if (!sliderData.length) return;
+  slideIndex = (slideIndex + 1) % sliderData.length;
+  updateSlider();
+}
+
+function prevSlide() {
+  if (!sliderData.length) return;
+  slideIndex = (slideIndex - 1 + sliderData.length) % sliderData.length;
+  updateSlider();
+}
+
+function goToSlide(i) {
+  if (!sliderData.length || i < 0 || i >= sliderData.length) return;
+  slideIndex = i;
+  updateSlider();
+  startAutoSlide();
+}
+
+function startAutoSlide() {
+  clearInterval(autoSlideTimer);
+  if (sliderData.length <= 1) return;
+  autoSlideTimer = setInterval(nextSlide, 5000);
+}
+
+function enableSliderSwipe() {
+  const slider = document.getElementById('sliderBox');
+  if (!slider || slider.dataset.swipeReady === '1') return;
+  slider.dataset.swipeReady = '1';
+  let startX = 0, startY = 0;
+  slider.addEventListener('touchstart', function(e) {
+    const touch = e.changedTouches[0];
+    startX = touch.clientX; startY = touch.clientY;
+  }, {passive:true});
+  slider.addEventListener('touchend', function(e) {
+    const touch = e.changedTouches[0];
+    const dx = touch.clientX - startX, dy = touch.clientY - startY;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+      dx < 0 ? nextSlide() : prevSlide();
+      startAutoSlide();
+    }
+  }, {passive:true});
+}
+
+const sliderWrapper = document.querySelector('.slider-wrapper');
+if (sliderWrapper) {
+  sliderWrapper.addEventListener('mouseenter', () => clearInterval(autoSlideTimer));
+  sliderWrapper.addEventListener('mouseleave', startAutoSlide);
+  sliderWrapper.addEventListener('focusin', () => clearInterval(autoSlideTimer));
+  sliderWrapper.addEventListener('focusout', startAutoSlide);
+}
+
+/* ✅ CATEGORY LOAD */
+function loadCategories(categories) {
+  let box = document.getElementById("categoryBox");
+  box.innerHTML = "";
+
+  categories.forEach(cat => {
+    box.innerHTML += `
+      <div class="cat-card" onclick="location.href='subcategory.html?cat=${cat.id}'">
+        <img src="${cacheBust(cat.image)}" alt="${cat.title}" loading="lazy" decoding="async">
+        <h4>${cat.title}</h4>
+      </div>
+    `;
+  });
+}
+
+/* ✅ RECENT LOAD */
+function loadRecent(recent) {
+  let box = document.getElementById("recentBox");
+  box.innerHTML = "";
+
+  recent.forEach(post => {
+    box.innerHTML += `
+      <div class="cat-card" onclick="location.href='${post.link}'">
+        <img src="${cacheBust(post.image)}" alt="${post.title}" loading="lazy" decoding="async">
+        <h4>${post.title}</h4>
+      </div>
+    `;
+  });
+}
+    
+/* ✅ Featured LOAD */
+function loadFeatured (featured ) {
+  let box = document.getElementById("featuredBox");
+  box.innerHTML = "";
+
+  featured.forEach(post => {
+    box.innerHTML += `
+      <div class="cat-card" onclick="location.href='${post.link}'">
+        <img src="${cacheBust(post.image)}" alt="${post.title}" loading="lazy" decoding="async">
+        <h4>${post.title}</h4>
+      </div>
+    `;
+  });
+}
+    
+document.getElementById("siteFooter").onclick = function () {
+   window.location.href = "index.html";
+  // 👉 এখানে তুমি চাইলে অন্য পেজে redirect করতে পারো:
+  // window.location.href = "contact.html";
+};
+
+</script>
+
+</body>
+</html>

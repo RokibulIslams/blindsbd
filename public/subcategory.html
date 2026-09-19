@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Window Blinds Products in Bangladesh | Blinds BD</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  transition: 0.3s;
+}
+
+/* ✅ NAVBAR */
+nav {
+  background:#222;
+  color:white;
+  padding:12px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav .logo-box {
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+nav .logo-box img {
+  height:35px;
+}
+
+nav .site-title {
+  display: none;
+  font-size:20px;
+  font-weight:bold;
+}
+
+nav .menu {
+  list-style:none;
+  display:flex;
+  gap:20px;
+  margin:0;
+  padding:0;
+}
+
+nav .menu li {
+  cursor:pointer;
+}
+
+nav .right-side {
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+nav .right-side input {
+  padding:6px 10px;
+  border-radius:4px;
+  border:none;
+  outline:none;
+}
+
+.dark-btn {
+  padding:6px 12px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  font-size:22px;
+  color:white;
+}
+
+/* ✅ MOBILE: hide search */
+@media (max-width: 600px) {
+  nav .right-side input {
+    display:none;
+  }
+}
+
+/* ✅ DARK MODE */
+body.dark {background:black}
+body.dark,
+body.dark h2 {
+  color:white !important;
+}
+
+body.dark nav {
+  background:#111;
+}
+
+body.dark .product-card {
+  box-shadow: 0 8px 25px rgba(255,255,255,0.08);
+}
+
+/* ✅ SECTION */
+.section {
+  padding:25px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+/* ✅ PRODUCT GRID */
+.products {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+  gap:20px;
+}
+
+/* ✅ FULL IMAGE PRODUCT CARD */
+.product-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transition: 0.35s ease;
+  animation: fadeIn 0.6s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+/* ✅ Full image */
+.product-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.08);
+}
+
+/* ✅ Bottom Overlay */
+.bottom-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0px;
+  background: linear-gradient(to top, rgba(0,0,0,0.65), rgba(0,0,0,0.05));
+  backdrop-filter: blur(4px);
+  transition: 0.35s ease;
+  text-align: center;
+}
+
+/* ✅ Title */
+.bottom-overlay h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+/* ✅ Price */
+.bottom-overlay p {
+  margin: 3px 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #f1f1f1;
+}
+
+/* ✅ Buttons */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.details-btn,
+.order-btn {
+  padding: 7px 14px;
+  border: none;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.details-btn {
+  background: rgba(255,255,255,0.85);
+  color: #000;
+}
+
+.order-btn {
+  background: #25D366;
+  color: white;
+}
+
+.details-btn:hover {
+  background: white;
+  transform: translateY(-2px);
+}
+
+.order-btn:hover {
+  background: #1ebd5a;
+  transform: translateY(-2px);
+}
+
+/* ✅ Fade-in animation */
+@keyframes fadeIn {
+  from { opacity:0; transform: translateY(20px); }
+  to { opacity:1; transform: translateY(0); }
+}
+
+/* ✅ NO RESULT */
+.no-result {
+  text-align:center;
+  margin-top:20px;
+  font-size:16px;
+  opacity:0.8;
+}
+    
+/* ✅ Footer always bottom */
+footer {
+  position: fixed;      /* সবসময় নিচে থাকবে */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+  cursor: pointer;      /* Clickable look */
+  z-index: 50;
+}
+
+footer:hover {
+  background: #020617;  /* Hover effect */
+}
+    
+    /* ✅ BREADCRUMB SEO */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 20px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.breadcrumb a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span:last-child {
+  color: #666;
+    }
+    
+</style>
+    
+    <meta name="description" content="Explore premium window blinds in Bangladesh including Zebra, Roller, Vertical, Venetian and Motorized blinds from Blinds BD. View products, prices and custom-size options.">
+
+<link rel="canonical" href="https://blinds.bd/subcategory.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Window Blinds Products in Bangladesh | Blinds BD">
+<meta property="og:description" content="Explore premium Zebra, Roller, Vertical, Venetian and Motorized blinds in Bangladesh from Blinds BD.">
+<meta property="og:url" content="https://blinds.bd/subcategory.html">
+<meta property="og:site_name" content="Blinds BD">
+<meta property="og:locale" content="bn_BD">
+<meta property="og:image" content="https://blinds.bd/images/logo.png">
+<meta property="og:image:alt" content="Blinds BD window blinds">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Window Blinds Products in Bangladesh | Blinds BD">
+<meta name="twitter:description" content="Explore premium Zebra, Roller, Vertical, Venetian and Motorized blinds in Bangladesh from Blinds BD.">
+<meta name="twitter:image" content="https://blinds.bd/images/logo.png">
+    
+    <script type="application/ld+json" id="websiteSchema">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Blinds BD",
+  "url": "https://blinds.bd/"
+}
+</script>
+
+<script type="application/ld+json" id="collectionPageSchema">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Window Blinds Products in Bangladesh | Blinds BD",
+  "description": "Explore premium window blinds in Bangladesh including Zebra, Roller, Vertical, Venetian and Motorized blinds.",
+  "url": "https://blinds.bd/subcategory.html",
+  "inLanguage": "bn-BD",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Blinds BD",
+    "url": "https://blinds.bd/"
+  }
+}
+</script>
+
+<script type="application/ld+json" id="categoryBreadcrumbSchema">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://blinds.bd/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Categories",
+      "item": "https://blinds.bd/category.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Products",
+      "item": "https://blinds.bd/subcategory.html"
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json" id="productItemListSchema">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Premium Blinds Products",
+  "itemListElement": []
+}
+    </script>
+    
+</head>
+<body>
+
+<!-- ✅ NAVBAR -->
+<nav>
+  <div class="logo-box">
+    <img src="images/logo.png" alt="Blinds BD logo">
+
+  <ul class="menu">
+    <li onclick="location.href='index.html'">Home</li>
+    <li onclick="location.href='category.html'">Category</li>
+  </ul>
+      </div>
+
+  <div class="right-side">
+    <input type="search" id="searchInput" placeholder="Search Products..." aria-label="Search Products">
+    <button class="dark-btn" onclick="toggleDark()" id="darkIcon">🌙</button>
+  </div>
+</nav>
+
+<!-- ✅ PRODUCTS SECTION -->
+<section class="section">
+    
+  <h1 id="pageTitle">In Bangladesh</h1>
+    <p id="categoryIntro"></p>
+    
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+  <a href="index.html">Home</a>
+  <span>›</span>
+  <a href="category.html">Categories</a>
+  <span>›</span>
+  <span id="breadcrumbCategory">Products</span>
+    </nav>
+    
+  <div class="products" id="productBox"></div>
+  <div id="noResult" class="no-result" style="display:none;">কোন প্রোডাক্ট পাওয়া যায়নি</div>
+</section>
+    
+<!-- ✅ FOOTER -->
+<footer id="siteFooter">
+  <p>© 2026 Blinds BD | Designed by Rokibul Islam Rahat</p>
+</footer>
+
+<script>
+/* ✅ DARK MODE */
+function toggleDark() {
+  document.body.classList.toggle("dark");
+  let icon = document.getElementById("darkIcon");
+  icon.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+}
+
+/* ✅ URL থেকে category ID */
+const urlParams = new URLSearchParams(window.location.search);
+const catID = urlParams.get("cat");
+
+let allProducts = [];
+
+/* ✅ Load products from JSON */
+fetch("data.json")
+  .then(res => res.json())
+  .then(data => {
+
+    let cat = data.categories.find(c => c.id === catID);
+    
+    if (cat) {
+
+  document.getElementById("pageTitle").innerText =
+    cat.title + " in Bangladesh";
+
+  document.getElementById("categoryIntro").innerText =
+    "Explore premium " + cat.title +
+    " in Bangladesh from Blinds BD. " +
+    "We offer stylish and practical window blinds with custom sizing, " +
+    "professional measurement and installation.";
+    
+    
+    document.getElementById("breadcrumbCategory").innerText =
+  cat.title;
+        
+    }
+    
+    // ✅ DYNAMIC CATEGORY BREADCRUMB SCHEMA
+
+if (cat) {
+
+  const categoryBreadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://blinds.bd/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Categories",
+        "item": "https://blinds.bd/category.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": cat.title,
+        "item": window.location.href
+      }
+    ]
+  };
+
+  document.getElementById("categoryBreadcrumbSchema").textContent =
+    JSON.stringify(categoryBreadcrumb);
+}
+    
+    
+    // ✅ DYNAMIC SEO FOR CATEGORY PAGE
+
+if (cat) {
+
+  // Dynamic Title
+  document.title =
+    cat.title + " Products in Bangladesh | Blinds BD";
+
+  // Dynamic Meta Description
+  let seoDescription =
+    "Explore " + cat.title +
+    " in Bangladesh from Blinds BD. View premium products, prices and details.";
+
+  let metaDescription =
+    document.querySelector('meta[name="description"]');
+
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      seoDescription.substring(0, 160)
+    );
+  }
+
+  // Dynamic Canonical
+  let canonical =
+    document.querySelector('link[rel="canonical"]');
+
+  if (canonical) {
+    canonical.setAttribute(
+      "href",
+      "https://blinds.bd/subcategory.html"
+    );
+  }
+
+  // Dynamic Open Graph
+  let ogTitle =
+    document.querySelector('meta[property="og:title"]');
+
+  if (ogTitle) {
+    ogTitle.setAttribute(
+      "content",
+      cat.title + " Products in Bangladesh | Blinds BD"
+    );
+  }
+
+  let ogDescription =
+    document.querySelector('meta[property="og:description"]');
+
+  if (ogDescription) {
+    ogDescription.setAttribute(
+      "content",
+      seoDescription.substring(0, 160)
+    );
+  }
+
+  let ogUrl =
+    document.querySelector('meta[property="og:url"]');
+
+  if (ogUrl) {
+    ogUrl.setAttribute(
+      "content",
+      "https://blinds.bd/subcategory.html"
+    );
+  }
+}
+    
+
+    allProducts = data.subcategories[catID] || [];
+    
+    // ✅ DYNAMIC PRODUCT ITEMLIST SCHEMA
+
+const productItemList = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": cat ? cat.title + " Products" : "Premium Blinds Products",
+  "itemListElement": allProducts.map((product, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": product.title,
+    "url": new URL(
+      "product-details.html?id=" + encodeURIComponent(product.id),
+      window.location.origin + "/"
+    ).href
+  }))
+};
+
+document.getElementById("productItemListSchema").textContent =
+  JSON.stringify(productItemList);
+
+    renderProducts(allProducts);
+  });
+
+/* ✅ Render Products */
+function renderProducts(list) {
+  let box = document.getElementById("productBox");
+  let noResult = document.getElementById("noResult");
+  box.innerHTML = "";
+
+  if (!list.length) {
+    noResult.style.display = "block";
+    return;
+  } else {
+    noResult.style.display = "none";
+  }
+
+  list.forEach(p => {
+    box.innerHTML += `
+      <div class="product-card">
+
+        <img src="${p.image}" alt="${p.title} - Blinds BD">
+
+        <div class="bottom-overlay">
+          <h3>${p.title}</h3>
+          <p>${p.price} Tk</p>
+
+          <div class="btn-group">
+
+           <a href="product-details.html?id=${p.id}" class="details-btn">
+            View Details
+           </a>
+
+           <button class="order-btn" onclick="orderNow('${p.title}', '${p.price}', '${p.id}')">
+            Order Now
+           </button>
+
+         </div>
+        </div>
+
+      </div>
+    `;
+  });
+}
+
+/* ✅ Search Filter */
+document.getElementById("searchInput").addEventListener("keyup", function () {
+  let keyword = this.value.toLowerCase();
+
+  let filtered = allProducts.filter(p =>
+    p.title.toLowerCase().includes(keyword)
+  );
+
+  renderProducts(filtered);
+});
+
+/* ✅ WhatsApp Order Function (with image link) */
+function orderNow(title, price, id) {
+  let detailslink = 'https://blinds.bd/product-details.html?id=${id}';
+  let msg =
+    `আমি এই প্রোডাক্টটি কিনতে চাই:\n` +
+    `প্রোডাক্ট: ${title}\n` +
+    `দাম: ${price} Tk\n` +
+    `ছবির লিংক: https://blinds.bd/product-details.html?id=${id}`;
+
+  let phone = "8801570220362"; // আমার WhatsApp নম্বর
+
+  window.location.href =
+    "https://wa.me/" + phone + "?text=" + encodeURIComponent(msg);
+}
+    
+    document.getElementById("siteFooter").onclick = function () {
+   window.location.href = "index.html";
+  // 👉 এখানে আমি চাইলে অন্য পেজে redirect করতে পারবো:
+  // window.location.href = "contact.html";
+};
+</script>
+
+</body>
+</html>

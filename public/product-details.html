@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Details</title>
+    
+    <meta name="description" content="Premium window blinds in Bangladesh. View product details, price, features and specifications.">
+
+<link rel="canonical" href="https://blinds.bd/product-details.html">
+    
+    <meta property="og:title" content="Premium Blinds BD Product">
+<meta property="og:description" content="Premium window blinds in Bangladesh.">
+<meta property="og:url" content="https://blinds.bd/product-details.html">
+<meta property="og:type" content="product">
+<meta property="og:site_name" content="Premium Blinds BD">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Premium Blinds BD Product">
+<meta name="twitter:description" content="Premium window blinds in Bangladesh. View product details, price, features and specifications.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+<link rel="stylesheet" href="animations.css">
+
+
+<style>
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  background: radial-gradient(circle at top, #f0f5ff, #f6f6f6);
+  transition: 0.3s;
+  color: #111827;
+}
+
+/* ✅ NAVBAR */
+nav {
+  background:#111827;
+  color:white;
+  padding:12px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+body.dark {
+        background: black 
+    }
+
+nav .logo-box {
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+nav .logo-box img {
+  height:32px;
+  border-radius: 6px;
+}
+
+nav .site-title {
+  font-size:18px;
+  font-weight:600;
+ 
+}
+
+.dark-btn {
+  padding:6px 12px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  font-size:22px;
+  color:white;
+}
+
+/* ✅ PAGE WRAPPER */
+.page-wrapper {
+  max-width: 1200px;
+  margin: 25px auto 40px;
+  padding: 0 16px;
+}
+
+/* ✅ BREADCRUMB */
+.breadcrumb {
+  font-size: 13px;
+  color:#6b7280;
+  margin-bottom: 12px;
+}
+
+.breadcrumb span {
+  cursor: pointer;
+}
+
+/* ✅ IMAGE FIRST GALLERY */
+.gallery-left {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.big-img-box {
+  width: 100%;
+  height: 700px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #f3f4f6;
+  position: relative;
+  margin: 0 auto;
+}
+
+.big-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  transition: 0.35s ease;
+  cursor: grab;
+}
+
+.big-img:active {
+  cursor: grabbing;
+}
+
+/* ✅ Arrow Buttons */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.45);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.25s ease;
+}
+
+.arrow:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+.left-arrow { left: 12px; }
+.right-arrow { right: 12px; }
+
+/* ✅ Thumbnails */
+.thumb-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.thumb-row img {
+  width: 80px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.25s ease;
+  flex-shrink: 0;
+}
+
+.thumb-row img.active-thumb {
+  border-color: #2563eb;
+  transform: scale(1.05);
+}
+
+
+/* ✅ IMAGE + VIDEO MEDIA SUPPORT */
+.big-img-box > video.big-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: inherit;
+  background: #000;
+}
+.thumb-row video {
+  width: 80px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.2s ease;
+  background: #000;
+}
+.thumb-row video.active-thumb {
+  border-color: #2563eb;
+  transform: scale(1.05);
+}
+
+/* ✅ DETAILS BELOW IMAGE */
+.details-section {
+  margin-top: 25px;
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(15,23,42,0.08);
+}
+
+.details-section h2 {
+  margin: 0 0 10px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.highlights {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.highlights li {
+  background: #f3f4f6;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+    
+.speciality-box {
+  margin-top: 18px;
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 14px 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+.speciality-box h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.speciality-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.speciality-box ul li {
+  font-size: 13px;
+  padding: 6px 10px;
+  border-left: 3px solid #2563eb;
+  background: #f3f4f6;
+  border-radius: 6px;
+}
+
+
+/* ✅ BUTTONS */
+.btn-stack {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.order-btn {
+  padding: 12px 18px;
+  background: linear-gradient(135deg,#22c55e,#16a34a);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.order-btn:hover {
+  transform: translateY(-2px);
+}
+
+.back-btn {
+  padding: 12px 18px;
+  background:#111827;
+  color:white;
+  border:none;
+  border-radius:999px;
+  font-size:14px;
+  cursor:pointer;
+}
+
+.back-btn:hover {
+  background:#020617;
+}
+
+/* ✅ DESCRIPTION */
+.card-box {
+  background: rgba(255,255,255,0.9);
+  border-radius: 16px;
+  padding: 18px;
+  margin-top: 25px;
+  box-shadow: 0 10px 28px rgba(15,23,42,0.08);
+}
+
+.card-box h3 {
+  margin:0 0 10px;
+  font-size: 18px;
+}
+
+.card-box p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ✅ RELATED PRODUCTS */
+.related {
+  margin-top: 28px;
+  margin-bottom: 100px;
+}
+
+.related-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:10px;
+}
+
+.related-box {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  gap:16px;
+}
+
+.related-card {
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  background:#0f172a;
+  color:white;
+  text-align: center;
+  box-shadow: 0 8px 18px rgba(15,23,42,0.12);
+  transition: 0.25s ease;
+}
+
+.related-card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.related-card:hover {
+  transform: translateY(-4px);
+}
+
+.related-card video {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+  background: #000;
+}
+
+    
+/* ✅ Footer always bottom */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  z-index: 50;
+}
+
+footer:hover {
+  background: #020617;  /* Hover effect */
+}
+</style>
+    
+    <script type="application/ld+json" id="productSchema">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Premium Blinds BD Product",
+  "image": [
+    "https://blinds.bd/images/logo.png"
+  ],
+  "description": "Premium window blinds in Bangladesh.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Premium Blinds BD"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://blinds.bd/",
+    "priceCurrency": "BDT",
+    "price": "0",
+    "availability": "https://schema.org/InStock"
+  }
+}
+    </script>
+    
+    <script type="application/ld+json" id="breadcrumbSchema">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://blinds.bd/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blinds",
+      "item": "https://blinds.bd/category.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Product",
+      "item": "https://blinds.bd/product-details.html"
+    }
+  ]
+}
+    </script>
+    
+    
+</head>
+<body>
+
+<!-- ✅ NAVBAR -->
+<nav>
+  <div  class="logo-box">
+  <a href="index.html">
+    <img src="images/logo.png" alt="Premium Blinds BD logo">
+  </a>
+    <span id="site-title">Premium Blinds BD</span>
+  </div>
+  <button class="dark-btn" onclick="toggleDark()" id="darkIcon">🌙</button>
+</nav>
+
+<div class="page-wrapper">
+
+  <!-- ✅ BREADCRUMB -->
+  <div class="breadcrumb">
+    <span onclick="location.href='index.html'">Home</span> › 
+    <span onclick="history.back()">Products</span> › 
+    <span id="crumbTitle">Loading...</span>
+  </div>
+
+  <!-- ✅ IMAGE FIRST -->
+  <div class="gallery-left">
+    <div class="big-img-box">
+      <img id="bigImage" class="big-img">
+
+      <div class="arrow left-arrow" onclick="prevImage()">❮</div>
+      <div class="arrow right-arrow" onclick="nextImage()">❯</div>
+    </div>
+
+    <div class="thumb-row" id="thumbRow"></div>
+  </div>
+
+  <!-- ✅ DETAILS BELOW IMAGE -->
+  <div class="details-section">
+
+    <h1 id="productTitle"></h1>
+
+    <div class="price-row">
+      <span class="price" id="productPrice"></span>
+    </div>
+
+    <ul class="highlights"></ul>
+      
+<!-- ✅ Speciality Section -->
+<div class="speciality-box">
+  <h3>Product Speciality</h3>
+  <ul id="specialityList"></ul>
+</div>
+      
+    <div class="btn-stack">
+      <button class="order-btn" id="orderBtn">WhatsApp এ অর্ডার করুন</button>
+      <button class="back-btn" onclick="history.back()">← Back</button>
+    </div>
+
+  </div>
+
+  <!-- ✅ DESCRIPTION -->
+  <div class="card-box">
+    <h3>Product Description</h3>
+    <p id="productDesc"></p>
+  </div>
+
+  <!-- ✅ RELATED PRODUCTS -->
+  <div class="related">
+    <div class="related-header">
+      <h3>Related Products</h3>
+    </div>
+    <div class="related-box" id="relatedBox"></div>
+  </div>
+
+</div>
+    
+<!-- ✅ FOOTER -->
+<footer id="siteFooter">
+  <p>© 2026 Premium Blinds BD | Designed by Rokibul Islam Rahat</p>
+</footer>
+
+<script>
+/* ✅ DARK MODE */
+function toggleDark() {
+  document.body.classList.toggle("dark");
+  document.getElementById("darkIcon").textContent =
+    document.body.classList.contains("dark") ? "☀️" : "🌙";
+}
+
+/* ✅ URL থেকে product ID */
+const urlParams = new URLSearchParams(window.location.search);
+const productID = urlParams.get("id");
+
+let currentProduct = null;
+let gallery = [];
+let currentCategoryKey = null;
+let currentIndex = 0;
+let autoSlideInterval = null;
+
+let bigImage = document.getElementById("bigImage");
+const thumbRow = document.getElementById("thumbRow");
+
+/* ✅ JSON LOAD */
+fetch("data.json")
+  .then(res => res.json())
+  .then(data => {
+
+    for (let key in data.subcategories) {
+  let match = data.subcategories[key].find(p => p.id === productID);
+
+  if (match) {
+    currentProduct = match;
+    currentCategoryKey = key;
+    break;
+  }
+    }
+
+    if (!currentProduct) return;
+
+    document.getElementById("crumbTitle").innerText = currentProduct.title;
+
+    gallery = currentProduct.images?.length ? currentProduct.images : [currentProduct.image];
+
+    currentIndex = 0;
+    renderGallery();
+
+    document.getElementById("site-title").innerText = currentProduct.title;
+    
+    // ✅ DYNAMIC SEO TITLE
+document.title = currentProduct.title + " | Premium Blinds BD";
+
+// ✅ DYNAMIC META DESCRIPTION
+let seoDescription = currentProduct.description ||
+  "Premium window blinds in Bangladesh. View product details, price, features and specifications.";
+
+seoDescription = seoDescription
+  .replace(/\s+/g, " ")
+  .trim()
+  .substring(0, 160);
+
+let metaDescription = document.querySelector('meta[name="description"]');
+
+if (metaDescription) {
+  metaDescription.setAttribute("content", seoDescription);
+}
+
+// ✅ DYNAMIC CANONICAL
+let canonical = document.querySelector('link[rel="canonical"]');
+
+if (canonical) {
+  canonical.setAttribute("href", window.location.origin + window.location.pathname + window.location.search);
+}
+    
+    // ✅ DYNAMIC OPEN GRAPH
+document.querySelector('meta[property="og:title"]')
+  .setAttribute("content", currentProduct.title + " | Premium Blinds BD");
+
+document.querySelector('meta[property="og:description"]')
+  .setAttribute("content", seoDescription);
+
+document.querySelector('meta[property="og:url"]')
+  .setAttribute("content", window.location.origin + window.location.pathname + window.location.search);
+    
+    
+    document.getElementById("productTitle").innerText = currentProduct.title;
+    document.getElementById("productPrice").innerText = currentProduct.price + " Tk";
+    document.getElementById("productDesc").innerText = currentProduct.description;
+    
+    // ✅ DYNAMIC BREADCRUMB SCHEMA
+let categoryName = "Blinds";
+
+if (currentCategoryKey && data.categories) {
+  let category = data.categories.find(
+    c => c.id === currentCategoryKey
+  );
+
+  if (category) {
+    categoryName = category.title;
+  }
+}
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://blinds.bd/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": categoryName,
+      "item": "https://blinds.bd/subcategory.html?cat=" +
+        encodeURIComponent(currentCategoryKey)
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": currentProduct.title,
+      "item": window.location.origin + window.location.pathname + window.location.search
+    }
+  ]
+};
+
+document.getElementById("breadcrumbSchema").textContent =
+  JSON.stringify(breadcrumb);
+    
+    // ✅ DYNAMIC PRODUCT SEO SCHEMA
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": currentProduct.title,
+  "image": [
+    new URL(
+      currentProduct.images?.length
+        ? currentProduct.images[0]
+        : currentProduct.image,
+      window.location.href
+    ).href
+  ],
+  "description": currentProduct.description,
+  "brand": {
+    "@type": "Brand",
+    "name": "Premium Blinds BD"
+  }
+};
+
+const numericPrice = String(currentProduct.price ?? "").replace(/[^0-9.]/g, "");
+if (numericPrice) {
+  schema.offers = {
+    "@type": "Offer",
+    "url": window.location.origin + window.location.pathname + window.location.search,
+    "priceCurrency": "BDT",
+    "price": numericPrice,
+    "availability": "https://schema.org/InStock"
+  };
+}
+
+document.getElementById("productSchema").textContent =
+  JSON.stringify(schema);
+    
+
+    let highlightsHTML = "";
+    currentProduct.highlights?.forEach(h => {
+      highlightsHTML += `<li>${h}</li>`;
+    });
+    document.querySelector(".highlights").innerHTML = highlightsHTML;
+    
+        // ✅ Speciality load
+let specialityHTML = "";
+if (currentProduct.speciality && currentProduct.speciality.length) {
+  currentProduct.speciality.forEach(sp => {
+    specialityHTML += `<li>${sp}</li>`;
+  });
+}
+document.getElementById("specialityList").innerHTML = specialityHTML;
+
+    let relatedBox = document.getElementById("relatedBox");
+    let relatedList = [];
+
+    for (let key in data.subcategories) {
+      data.subcategories[key].forEach(p => {
+        if (p.id !== currentProduct.id) relatedList.push(p);
+      });
+    }
+
+    relatedList.slice(0, 5).forEach(p => {
+      let thumb = p.images?.length ? p.images[0] : p.image;
+      let mediaHTML = isVideoFile(thumb)
+        ? `<video src="${thumb}" muted playsinline preload="metadata"></video>`
+        : `<img src="${thumb}" loading="lazy" alt="${p.title}">`;
+      relatedBox.innerHTML += `
+        <div class="related-card" onclick="location.href='product-details.html?id=${p.id}'">
+          ${mediaHTML}
+          <p>${p.title}</p>
+        </div>
+      `;
+    });
+
+    document.getElementById("orderBtn").onclick = function () {
+      let msg =
+        `🛒 *নতুন অর্ডার রিকোয়েস্ট*\n\n` +
+        `📌 *প্রোডাক্ট:* ${currentProduct.title}\n` +
+        `💰 *দাম:* ${currentProduct.price} Tk\n\n` +
+        `✅ অনুগ্রহ করে অর্ডার কনফার্ম করুন।`;
+
+      window.location.href =
+        "https://wa.me/+8801570220362?text=" + encodeURIComponent(msg);
+    };
+
+    startAutoSlide();
+  });
+
+/* ✅ IMAGE / MP4 DETECTION */
+function isVideoFile(src) {
+  if (!src) return false;
+  const clean = src.split('?')[0].split('#')[0].toLowerCase();
+  return /\.mp4$/.test(clean);
+}
+
+/* ✅ Render main image OR MP4 video */
+function renderMainMedia(src) {
+  const box = document.querySelector('.big-img-box');
+  if (!box) return;
+
+  if (bigImage && bigImage.parentNode === box) {
+    bigImage.remove();
+  }
+
+  if (isVideoFile(src)) {
+    const video = document.createElement('video');
+    video.id = 'bigImage';
+    video.className = 'big-img';
+    video.src = src;
+    video.autoplay = true;
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+    video.controls = true;
+    video.preload = 'metadata';
+    box.insertBefore(video, box.firstChild);
+    bigImage = video;
+  } else {
+    const img = document.createElement('img');
+    img.id = 'bigImage';
+    img.className = 'big-img';
+    img.src = src || '';
+    img.alt = currentProduct?.title
+  ? currentProduct.title + " - Premium Blinds BD"
+  : "Premium Blinds BD Product Image";
+    img.decoding = 'async';
+    box.insertBefore(img, box.firstChild);
+    bigImage = img;
+  }
+}
+
+/* ✅ Render thumbnails according to file type */
+function renderThumbnails() {
+  thumbRow.innerHTML = '';
+
+  gallery.forEach((src, index) => {
+    if (isVideoFile(src)) {
+      const video = document.createElement('video');
+      video.src = src;
+      video.muted = true;
+      video.playsInline = true;
+      video.preload = 'metadata';
+      video.className = index === 0 ? 'active-thumb' : '';
+      video.title = 'Video';
+      video.onclick = () => changeImage(index);
+      thumbRow.appendChild(video);
+    } else {
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = currentProduct?.title
+  ? currentProduct.title + " - Premium Blinds BD"
+  : "Premium Blinds BD Product Image";
+      img.className = index === 0 ? 'active-thumb' : '';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.onclick = () => changeImage(index);
+      thumbRow.appendChild(img);
+    }
+  });
+}
+
+/* ✅ Render complete gallery */
+function renderGallery() {
+  if (!gallery.length) return;
+  renderMainMedia(gallery[currentIndex]);
+  renderThumbnails();
+}
+
+/* ✅ Change image OR video */
+function changeImage(i) {
+  if (!gallery.length) return;
+
+  currentIndex = i;
+  renderMainMedia(gallery[i]);
+
+  document.querySelectorAll('.thumb-row img, .thumb-row video').forEach((t, idx) => {
+    t.classList.toggle('active-thumb', idx === i);
+  });
+}
+
+/* ✅ Next / Previous */
+function nextImage() {
+  if (!gallery.length) return;
+  currentIndex = (currentIndex + 1) % gallery.length;
+  changeImage(currentIndex);
+}
+
+function prevImage() {
+  if (!gallery.length) return;
+  currentIndex = (currentIndex - 1 + gallery.length) % gallery.length;
+  changeImage(currentIndex);
+}
+
+/* ✅ Swipe works for BOTH image and video */
+let startX = 0;
+const galleryBox = document.querySelector('.big-img-box');
+
+if (galleryBox) {
+  galleryBox.addEventListener('touchstart', e => {
+    if (e.touches.length) startX = e.touches[0].clientX;
+    stopAutoSlide();
+  }, {passive: true});
+
+  galleryBox.addEventListener('touchend', e => {
+    if (!e.changedTouches.length) return;
+    const endX = e.changedTouches[0].clientX;
+    if (startX - endX > 50) nextImage();
+    else if (endX - startX > 50) prevImage();
+  }, {passive: true});
+
+  galleryBox.addEventListener('mousedown', stopAutoSlide);
+}
+
+thumbRow.addEventListener('mouseover', stopAutoSlide);
+
+/* ✅ Auto Slide */
+function startAutoSlide() {
+  stopAutoSlide();
+  if (gallery.length > 1) {
+    autoSlideInterval = setInterval(() => nextImage(), 3500);
+  }
+}
+
+function stopAutoSlide() {
+  if (autoSlideInterval) {
+    clearInterval(autoSlideInterval);
+    autoSlideInterval = null;
+  }
+}
+
+    document.getElementById("siteFooter").onclick = function () {
+   window.location.href = "index.html";
+  // 👉 এখানে তুমি চাইলে অন্য পেজে redirect করতে পারো:
+  // window.location.href = "contact.html";
+};
+</script>
+
+</body>
+</html>
